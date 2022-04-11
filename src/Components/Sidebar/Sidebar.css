@@ -1,0 +1,114 @@
+.sidebar-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.sidebar-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding: 23px 35px;
+    transition: 0.3s;
+    border: 2px solid transparent;   
+}
+
+.sidebar-logo {
+    padding: 26px 35px;
+    
+}
+.sidebar-link:hover , .sidebar-active{
+    background-color: #D2BA6C;
+    border: 2px solid black;
+}
+
+.zakaz-icon{
+    transform: rotate(90deg) scale(1.3);
+    
+
+    height: 20px;
+}
+
+
+
+.sidebar-link p {
+    padding-left: 10px;
+}
+
+.sidebar {
+    padding: 15px 25px;
+    padding-right: 0;
+    padding-left: 0;
+    background: #191A1E;
+    color: white;
+    width: 18%;
+    min-height: 100vh;
+}
+
+.toggle {
+    width: 60px;
+  }
+
+
+.sidebar-list{
+    padding-top: 10px;
+}
+
+
+.menu-icon{
+    font-size: 38px;
+}
+
+.drop-open {
+  position: relative;
+}
+.menu-btn{
+    background-color: transparent;
+    color: white;
+    padding-left: 26px;
+    border: none;
+    display: none;
+}
+
+.hidden {
+    position: absolute;
+    transition: transform 2s ease;
+    right: 200%;
+    transition: 1s ease all;
+    opacity: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+  

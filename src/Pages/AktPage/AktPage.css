@@ -1,0 +1,100 @@
+.akt {
+    background-color: white;
+    padding: 30px;
+}
+
+.akt-top {
+    width: 600px;
+}
+
+.akt-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.akt-input {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+
+}
+
+.akt-btn {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    background: #BC9957;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    padding: 6px 32px;
+    cursor: pointer;
+}
+
+/* 
+.akt-input:nth-child(1){
+    position: relative;
+} */
+
+/* .akt-text{
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    background-color: white;
+    color: black;
+    padding: 6px 45px;
+    
+} */
+@media(max-width:700px){
+  .akt  .akt-top{
+        width: 550px;
+        
+    }
+   .akt .akt-input, .akt .akt-btn{
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+}
+
+@media(max-width:560px){
+    .akt .akt-top{
+        width: 400px;
+    }
+}
+
+@media(max-width:420px){
+    .akt .akt-top{
+        width: 300px;
+    }
+    .akt .akt-input, .akt .akt-btn{
+        font-size: 12px;
+        padding: 2px 7px;
+    }
+}
+@media(max-width:320px){
+    .akt .akt-top{
+        width: 100%;
+    }
+    .akt .akt-form{
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .akt .akt-btn{
+        margin-top: 10px;
+        padding: 5px 20px;
+    }
+}
+
