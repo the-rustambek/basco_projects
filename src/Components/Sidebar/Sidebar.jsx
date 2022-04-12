@@ -1,15 +1,15 @@
 import "./Sidebar.css";
 import BascoLogo from "../../Assets/Img/BascoLogo.png"
-import Akt from "../../Assets/Img/akt.svg";
+// import Akt from "../../Assets/Img/akt.svg";
 import buyurtma from "../../Assets/Img/buyurtma.svg";
 import mahsulot from "../../Assets/Img/mahsulot.svg";
-import menu from "../../Assets/Img/menu.png";
+// import menu from "../../Assets/Img/menu.png";
 import { Link } from "react-router-dom";
 import { IoMdReorder } from "react-icons/io";
-import { useContext, useEffect, useRef } from 'react';
+// import { useContext, useEffect, useRef } from 'react';
 import { FaRegCalendarAlt } from "react-icons/fa";
 
-import { MenuController } from "../../Context/menuController";
+// import { MenuController } from "../../Context/menuController";
 const Sidebar = () =>{
 
 const handleAddClass = (event)=>{
@@ -31,9 +31,9 @@ return(
     <button className="menu-btn"  >
     <IoMdReorder className="menu-icon" />
     </button>
-        <a href="#" className="sidebar-logo">
+        <Link to="/qwewe"  className="sidebar-logo">
             <img src={BascoLogo} alt="basco logosi bor" className="sidebar-img" />
-        </a>
+        </Link>
     </div>
     <ul className="sidebar-list">
         <li className="sidebar-item">

@@ -28,7 +28,6 @@ return (
         </Route>
       </Switch>
     </div>
-
   </div>
 </div>
 );
