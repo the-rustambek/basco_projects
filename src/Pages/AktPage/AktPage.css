@@ -1,10 +1,11 @@
 .akt {
     background-color: white;
-    padding: 30px;
+    
 }
 
 .akt-top {
     width: 600px;
+    margin: 30px;
 }
 
 .akt-form {

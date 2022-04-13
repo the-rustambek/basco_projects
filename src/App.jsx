@@ -1,10 +1,11 @@
 import { Route } from 'react-router-dom';
 import { Switch } from 'react-router-dom';
 import './App.css';
-import Header from './Components/Header/Header';
+// import Header from './Components/Header/Header';
 import Sidebar from './Components/Sidebar/Sidebar';
 import AktPage from './Pages/AktPage/AktPage';
 import BuyurtmalarPage from './Pages/BuyurtmalarPage/BuyurtmalarPage';
+import ZakazPage from './Pages/ZakazPage/ZakazPage';
 
 function App() {
 return (
@@ -12,13 +13,13 @@ return (
   <div className="container">
     <Sidebar />
     <div className="main">
-      <Header />
+      
       <Switch>
         <Route path="/akt" exact>
           <AktPage />
         </Route>
         <Route path="/zakaz" exact>
-          zakaz
+          <ZakazPage />
         </Route>
         <Route path="/mahsulotlar" exact>
           mahsulot

@@ -1,9 +1,11 @@
 import AktTable from "../../Components/AktTable/AktTable";
+import Header from "../../Components/Header/Header";
 import "./AktPage.css";
 
 const AktPage = () =>{
 return(
 <section className="akt">
+<Header />
     <div className="akt-top">
         <form className="akt-form">
 
