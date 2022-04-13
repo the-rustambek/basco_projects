@@ -123,8 +123,8 @@ td {
 
 
 
-main {
-    height: 80vh;
+.zakaz-main {
+    height: 61vh;
     overflow-y: scroll;
     margin: 30px;
 }
@@ -341,6 +341,22 @@ border: none;
 .refresh-btn:hover{
     transform:rotate(360deg);
 }
+.zakaz-page{
+    position: relative;
+}
+.zakaz-button{
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    /* transform: translate(-50%,-50%); */
+    background: #D2BA6C;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 6px 10px;
+    font-size: 14px;
+    z-index: 10000;
+}
 
 }
 
@@ -469,6 +485,22 @@ border: none;
     .refresh-btn:hover{
         transform:rotate(360deg);
     }
+    .zakaz-page{
+        position: relative;
+    }
+    .zakaz-button{
+        position: absolute;
+        top: 110%;
+        left: 55%;
+        /* transform: translate(-50%,-50%); */
+        background: #D2BA6C;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        padding: 10px;
+        font-size: 18px;
+        z-index: 10000;
+    }
 }
 
 @media (min-width: 520px) {
@@ -588,6 +620,22 @@ border: none;
 }
 .refresh-btn:hover{
     transform:rotate(360deg);
+}
+.zakaz-page{
+    position: relative;
+}
+.zakaz-button{
+    position: absolute;
+    top: 110%;
+    left: 60%;
+    /* transform: translate(-50%,-50%); */
+    background: #D2BA6C;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    font-size: 18px;
+    z-index: 10000;
 }
 }
 
@@ -719,6 +767,22 @@ border: none;
 .refresh-btn:hover{
     transform:rotate(360deg);
 }
+.zakaz-page{
+    position: relative;
+}
+.zakaz-button{
+    position: absolute;
+    top: 110%;
+    left: 60%;
+    /* transform: translate(-50%,-50%); */
+    background: #D2BA6C;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    font-size: 18px;
+    z-index: 10000;
+}
 }
 
 @media (min-width: 720px) {
@@ -839,6 +903,23 @@ border: none;
     }
     .refresh-btn:hover{
         transform:rotate(360deg);
+    }
+
+    .zakaz-page{
+        position: relative;
+    }
+    .zakaz-button{
+        position: absolute;
+        top: 110%;
+        left: 60%;
+        /* transform: translate(-50%,-50%); */
+        background: #D2BA6C;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        padding: 10px 25px;
+        font-size: 18px;
+        z-index: 10000;
     }
 
 }
@@ -1025,5 +1106,21 @@ border: none;
 }
 .refresh-btn:hover{
     transform:rotate(360deg);
+}
+.zakaz-page{
+    position: relative;
+}
+.zakaz-button{
+    position: absolute;
+    top: 110%;
+    left: 70%;
+    /* transform: translate(-50%,-50%); */
+    background: #D2BA6C;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 25px;
+    font-size: 18px;
+    z-index: 10000;
 }
 }

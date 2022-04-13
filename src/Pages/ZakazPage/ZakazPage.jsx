@@ -4,14 +4,14 @@ import "./ZakazPage.css";
 
 const ZakazPage = () =>{
 return (
-<>
+<div className="zakaz-page">
     <ZakazHeader />
     <ZakazTable />
 
     <button className="zakaz-button">
         Buyurtma berish
     </button>
-</>
+</div>
 )
 }
 
