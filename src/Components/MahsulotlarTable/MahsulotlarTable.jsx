@@ -1,11 +1,9 @@
-import "./ZakazTable.css";
-import refresh from "../../Assets/Img/refresh.png";
-// import { useState } from "react";
-const ZakazTable = () =>{
-// const [minus, setMinus] = useState(0);
+import "./MahsulotlarTable.css"
+import deleteIcon from "../../Assets/Img/Delete.svg";
 
-return (
-<main className="zakaz-main">
+const MahsulotlarTable = () =>{
+     return (
+        <main className="mahsulotlar-main">
   <table>
     <thead>
       <tr>
@@ -27,7 +25,7 @@ return (
         <th>
           Soni
         </th>
-        <th></th>
+        <th>O'chirish</th>
       </tr>
     </thead>
 
@@ -60,8 +58,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -94,8 +92,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -128,8 +126,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -162,8 +160,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -196,8 +194,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -230,8 +228,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -264,8 +262,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -298,8 +296,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -332,8 +330,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -366,8 +364,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -400,8 +398,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -434,8 +432,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -468,8 +466,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -502,8 +500,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -536,8 +534,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -570,8 +568,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -604,8 +602,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -638,8 +636,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -672,8 +670,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -706,8 +704,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -740,8 +738,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -774,8 +772,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -808,8 +806,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -842,8 +840,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -876,8 +874,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -910,8 +908,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -944,8 +942,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -978,8 +976,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -1012,8 +1010,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -1046,8 +1044,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -1080,8 +1078,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -1114,8 +1112,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -1148,8 +1146,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -1182,8 +1180,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -1216,8 +1214,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -1250,8 +1248,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -1284,8 +1282,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -1318,8 +1316,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -1352,8 +1350,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -1386,8 +1384,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -1420,8 +1418,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -1454,8 +1452,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -1488,8 +1486,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -1522,8 +1520,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -1556,8 +1554,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -1590,8 +1588,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -1624,8 +1622,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -1658,8 +1656,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -1692,8 +1690,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -1726,8 +1724,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -1760,8 +1758,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -1794,8 +1792,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -1828,8 +1826,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -1862,8 +1860,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -1896,8 +1894,8 @@ return (
           </button>
         </td>
         <td>
-          <button className="refresh-btn">
-            <img src={refresh} alt="refresh" className="refresh-icon" />
+          <button className="delete-btn">
+            <img src={deleteIcon} alt="delete" className="delete-icon" />
           </button>
         </td>
 
@@ -1907,7 +1905,8 @@ return (
   </table>
 
 </main>
-)
+
+     )
 }
 
-export default ZakazTable;
+export default MahsulotlarTable;

@@ -1,4 +1,4 @@
-.zakaz-main {
+.mahsulotlar-main {
     margin: 30px;
 }
 
@@ -123,8 +123,8 @@ td {
 
 
 
-.zakaz-main {
-    height: 61vh;
+.mahsulotlar-main {
+    height: 43vh;
     overflow-y: scroll;
     margin: 30px;
 }
@@ -133,6 +133,15 @@ td {
 
 
 
+.delete-btn {
+    background: #FBE9E9;
+    border-radius: 5px;
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    padding: 6px;
+    border: none;
+}
 
 
 .switch {
@@ -285,7 +294,7 @@ input:checked+.slider:before {
     }
 
 
-    .zakaz-main .count-td {
+    .mahsulotlar-main .count-td {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -365,6 +374,19 @@ input:checked+.slider:before {
         font-size: 14px;
         z-index: 10000;
     }
+    .delete-btn {
+        background: #FBE9E9;
+        /* border-radius: 5px; */
+        text-align: center;
+        width: 18px;
+        height: 16px;
+        padding: 2px;
+        border: none;
+    }
+    .delete-icon{
+        width: 10px;
+        height: 10px;
+    }
 
 }
 
@@ -439,7 +461,7 @@ input:checked+.slider:before {
         transform: translateX(10px);
     }
 
-    .zakaz-main .count-td {
+    .mahsulotlar-main .count-td {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -517,6 +539,20 @@ input:checked+.slider:before {
         font-size: 18px;
         z-index: 10000;
     }
+
+    .delete-btn {
+        background: #FBE9E9;
+        /* border-radius: 5px; */
+        text-align: center;
+        width: 18px;
+        height: 16px;
+        padding: 2px;
+        border: none;
+    }
+    .delete-icon{
+        width: 10px;
+        height: 10px;
+    }
 }
 
 @media (min-width: 520px) {
@@ -584,7 +620,7 @@ input:checked+.slider:before {
         transform: translateX(10px);
     }
 
-    .zakaz-main .count-td {
+    .mahsulotlar-main .count-td {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -662,6 +698,20 @@ input:checked+.slider:before {
         font-size: 18px;
         z-index: 10000;
     }
+
+    .delete-btn {
+        background: #FBE9E9;
+        /* border-radius: 5px; */
+        text-align: center;
+        width: 18px;
+        height: 16px;
+        padding: 2px;
+        border: none;
+    }
+    .delete-icon{
+        width: 10px;
+        height: 10px;
+    }
 }
 
 @media (min-width: 630px) {
@@ -738,7 +788,7 @@ input:checked+.slider:before {
         transform: translateX(12px);
     }
 
-    .zakaz-main .count-td {
+    .mahsulotlar-main .count-td {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -816,6 +866,21 @@ input:checked+.slider:before {
         font-size: 18px;
         z-index: 10000;
     }
+
+
+    .delete-btn {
+        background: #FBE9E9;
+        border-radius: 5px;
+        text-align: center;
+        width: 22px;
+        height: 22px;
+        padding: 3px;
+        border: none;
+    }
+    .delete-icon{
+        width: 16px;
+        height: 14px;
+    }
 }
 
 @media (min-width: 720px) {
@@ -889,7 +954,7 @@ input:checked+.slider:before {
         line-height: 12px;
     }
 
-    .zakaz-main .count-td {
+    .mahsulotlar-main .count-td {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -960,6 +1025,20 @@ input:checked+.slider:before {
         padding: 10px 25px;
         font-size: 18px;
         z-index: 10000;
+    }
+    
+    .delete-btn {
+        background: #FBE9E9;
+        border-radius: 5px;
+        text-align: center;
+        width: 26px;
+        height: 26px;
+        padding: 3px;
+        border: none;
+    }
+    .delete-icon{
+        width: 16px;
+        height: 14px;
     }
 
 }
@@ -1100,7 +1179,7 @@ input:checked+.slider:before {
 
 
 
-    .zakaz-main .count-td {
+    .mahsulotlar-main .count-td {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1138,37 +1217,17 @@ input:checked+.slider:before {
 
     }
 
-    .refresh-icon {
-        width: 30px;
-        height: 30px;
-    }
-
-    .refresh-btn {
+    .delete-btn {
+        background: #FBE9E9;
+        border-radius: 5px;
+        text-align: center;
+        width: 32px;
+        height: 32px;
+        padding: 6px;
         border: none;
-        background-color: transparent;
-        cursor: pointer;
-        transition: 3s;
     }
-
-    .refresh-btn:hover {
-        transform: rotate(360deg);
-    }
-
-    .zakaz-page {
-        position: relative;
-    }
-
-    .zakaz-button {
-        position: absolute;
-        top: 110%;
-        left: 70%;
-        /* transform: translate(-50%,-50%); */
-        background: #D2BA6C;
-        color: white;
-        border: none;
-        border-radius: 3px;
-        padding: 10px 25px;
-        font-size: 18px;
-        z-index: 10000;
+    .delete-icon{
+        width: 20px;
+        height: 18px;
     }
 }

@@ -5,6 +5,7 @@ import './App.css';
 import Sidebar from './Components/Sidebar/Sidebar';
 import AktPage from './Pages/AktPage/AktPage';
 import BuyurtmalarPage from './Pages/BuyurtmalarPage/BuyurtmalarPage';
+import MahsulotlarPage from './Pages/MahsulotlarPage/MahsulotlarPage';
 import ZakazPage from './Pages/ZakazPage/ZakazPage';
 
 function App() {
@@ -13,7 +14,6 @@ return (
   <div className="container">
     <Sidebar />
     <div className="main">
-      
       <Switch>
         <Route path="/akt" exact>
           <AktPage />
@@ -22,7 +22,7 @@ return (
           <ZakazPage />
         </Route>
         <Route path="/mahsulotlar" exact>
-          mahsulot
+          <MahsulotlarPage />
         </Route>
         <Route path="/">
           <BuyurtmalarPage />

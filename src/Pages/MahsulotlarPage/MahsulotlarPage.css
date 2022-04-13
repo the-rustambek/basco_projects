@@ -1,0 +1,78 @@
+.mahsulotlar-bottom {
+    margin: 20px 30px;
+    padding: 10px 35px;
+    padding-left: 59px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 11px;
+
+}
+
+.mahsulotlar-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.mahsulotlar-title {
+    padding: 10px 0;
+    font-weight: 600;
+    text-align: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.mahsulotlar-form label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.mahsulotlar-form input {
+    padding: 4px 6px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    width: 340px;
+    border-radius: 8px;
+}
+
+.mahsulotlar-form textarea {
+
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-top: 18px;
+    padding: 4px 6px;
+    width: 340px;
+    height: 96px;
+}
+
+.mahsulotlar-box {
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 10px;
+    line-height: 200%;
+    height: 145px;
+    width: 333px;
+}
+
+.mahsulotlar-btn{
+    border-radius: 6px;
+    background-color: #D2BA6C;
+    font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+letter-spacing: 0.01em;
+
+color:white;
+padding: 10px 35px;
+border: none;
+}
