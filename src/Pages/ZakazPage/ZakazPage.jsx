@@ -7,6 +7,10 @@ return (
 <>
     <ZakazHeader />
     <ZakazTable />
+
+    <button className="zakaz-button">
+        Buyurtma berish
+    </button>
 </>
 )
 }
