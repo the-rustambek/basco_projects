@@ -62,17 +62,145 @@
     width: 333px;
 }
 
-.mahsulotlar-btn{
+.mahsulotlar-btn {
     border-radius: 6px;
     background-color: #D2BA6C;
     font-weight: 500;
-font-size: 14px;
-line-height: 24px;
-/* identical to box height, or 171% */
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
 
-letter-spacing: 0.01em;
+    letter-spacing: 0.01em;
 
-color:white;
-padding: 10px 35px;
-border: none;
+    color: white;
+    padding: 10px 35px;
+    border: none;
+}
+
+
+
+@media(max-width:1160px) {
+
+    .mahsulotlar-form input,
+    .mahsulotlar-form textarea,
+    .mahsulotlar-box {
+        width: 250px;
+    }
+
+}
+
+@media(max-width:1020px) {
+
+    .mahsulotlar-form input,
+    .mahsulotlar-form textarea,
+    .mahsulotlar-box {
+        width: 225px;
+    }
+
+    .mahsulotlar-bottom {
+        padding: 10px;
+    }
+}
+
+@media(max-width:920px) {
+
+    .mahsulotlar-form input,
+    .mahsulotlar-form textarea,
+    .mahsulotlar-box {
+        width: 200px;
+    }
+}
+
+@media(max-width:820px) {}
+
+@media(max-width:720px) {
+
+    .mahsulotlar-form input,
+    .mahsulotlar-form textarea,
+    .mahsulotlar-box {
+        width: 175px;
+    }
+
+    .mahsulotlar-btn {
+        padding: 8px 18px;
+    }
+
+}
+
+@media(max-width:620px) {
+    .mahsulotlar-form {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .mahsulotlar-form input,
+    .mahsulotlar-form textarea,
+    .mahsulotlar-box {
+        width: 425px;
+    }
+
+    .mahsulotlar-btn {
+        padding: 8px 38px;
+        margin-top: 20px;
+    }
+
+    .mahsulotlar-bottom textarea {
+        margin: 15px 0;
+    }
+}
+
+@media(max-width:520px) {
+
+    .mahsulotlar-form input,
+    .mahsulotlar-form textarea,
+    .mahsulotlar-box {
+        width: 325px;
+    }
+
+    .mahsulotlar-btn {
+        padding: 8px 38px;
+        margin-top: 20px;
+    }
+
+    .mahsulotlar-bottom textarea {
+        margin: 15px 0;
+    }
+    
+}
+
+@media(max-width:420px) {
+
+    .mahsulotlar-form input,
+    .mahsulotlar-form textarea,
+    .mahsulotlar-box {
+        width: 225px;
+    }
+
+    .mahsulotlar-btn {
+        padding: 8px 38px;
+        margin-top: 20px;
+    }
+
+    .mahsulotlar-bottom textarea {
+        margin: 15px 0;
+    }
+}
+
+@media(max-width:320px) {
+
+    .mahsulotlar-form input,
+    .mahsulotlar-form textarea,
+    .mahsulotlar-box {
+        width: 100%
+    }
+
+    .mahsulotlar-btn {
+        padding: 8px 28px;
+        margin-top: 20px;
+    }
+
+    .mahsulotlar-bottom textarea {
+        margin: 15px 0;
+    }
 }

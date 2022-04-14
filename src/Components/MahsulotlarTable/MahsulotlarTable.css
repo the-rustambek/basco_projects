@@ -387,6 +387,9 @@ input:checked+.slider:before {
         width: 10px;
         height: 10px;
     }
+    .mahsulotlar-main {
+        margin: 20px 10px;
+    }
 
 }
 
@@ -553,10 +556,17 @@ input:checked+.slider:before {
         width: 10px;
         height: 10px;
     }
+    .mahsulotlar-main {
+        margin: 20px 10px;
+    }
+    
 }
 
 @media (min-width: 520px) {
-
+    .mahsulotlar-main {
+        margin: 30px;
+    }
+    
 
 
     body .main td,
@@ -715,6 +725,10 @@ input:checked+.slider:before {
 }
 
 @media (min-width: 630px) {
+    .mahsulotlar-main {
+        margin: 30px;
+    }
+    
     table {
         display: table;
     }
@@ -884,6 +898,10 @@ input:checked+.slider:before {
 }
 
 @media (min-width: 720px) {
+    .mahsulotlar-main {
+        margin: 30px;
+    }
+    
     table {
         display: table;
     }
@@ -1046,6 +1064,10 @@ input:checked+.slider:before {
 
 
 @media (min-width: 920px) {
+    .mahsulotlar-main {
+        margin: 30px;
+    }
+    
     table {
         display: table;
     }

@@ -204,6 +204,9 @@ input:checked+.slider:before {
 
 
 @media (min-width: 280px) {
+    .zakaz-main {
+        margin: 20px 10px;
+    }
     table {
         display: table;
     }
@@ -214,7 +217,7 @@ input:checked+.slider:before {
 
     button {
         padding: 2px 4px;
-        font-size: 8px;
+        font-size: 10px;
         font-weight: 100;
 
     }
@@ -250,7 +253,7 @@ input:checked+.slider:before {
     body .main td,
     body .main th {
         display: table-cell;
-        font-size: 6px;
+        font-size: 8px;
         padding: 1px;
         /* font-weight: 300; */
 
@@ -308,7 +311,7 @@ input:checked+.slider:before {
         background: rgba(205, 60, 95, 0.53);
         border-radius: 5px;
         padding: 1px;
-        width: 12px;
+        width: 14px;
         height: 10px;
         display: flex;
         justify-content: center;
@@ -322,7 +325,7 @@ input:checked+.slider:before {
         background: rgba(22, 208, 18, 0.53);
         border-radius: 5px;
         padding: 1px;
-        width: 12px;
+        width: 14px;
         height: 10px;
         display: flex;
         justify-content: center;
@@ -333,8 +336,8 @@ input:checked+.slider:before {
     }
 
     .refresh-icon {
-        width: 14px;
-        height: 14px;
+        width: 12px;
+        height: 12px;
     }
 
     .refresh-btn {
@@ -369,6 +372,9 @@ input:checked+.slider:before {
 }
 
 @media (min-width: 420px) {
+    .zakaz-main {
+        margin: 20px 10px;
+    }
     table {
         display: table;
     }
@@ -520,7 +526,9 @@ input:checked+.slider:before {
 }
 
 @media (min-width: 520px) {
-
+    .zakaz-main {
+        margin: 20px 10px;
+    }
 
 
     body .main td,
@@ -665,6 +673,9 @@ input:checked+.slider:before {
 }
 
 @media (min-width: 630px) {
+    .zakaz-main {
+        margin: 20px;
+    }
     table {
         display: table;
     }
@@ -819,6 +830,9 @@ input:checked+.slider:before {
 }
 
 @media (min-width: 720px) {
+    .zakaz-main {
+        margin: 30px;
+    }
     table {
         display: table;
     }
@@ -967,6 +981,9 @@ input:checked+.slider:before {
 
 
 @media (min-width: 920px) {
+    .zakaz-main {
+        margin: 30px;
+    }
     table {
         display: table;
     }
