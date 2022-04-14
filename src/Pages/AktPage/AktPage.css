@@ -39,9 +39,17 @@
     background: #D2BA6C;
     border-radius: 15px;
     color: white;
-    border: none;
+    border: 2px solid white;
     padding: 6px 32px;
     cursor: pointer;
+    transition: 0.5px;
+}
+.akt-btn:hover{
+    transform: scale(0.96);
+    background-color: white;
+    color:#D2BA6C;
+    border: 2px solid #D2BA6C;
+    
 }
 
 /* 

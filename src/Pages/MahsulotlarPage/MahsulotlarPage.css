@@ -74,11 +74,18 @@
 
     color: white;
     padding: 10px 35px;
-    border: none;
+    border: 2px solid white;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 
-
+.mahsulotlar-btn:hover{
+    transform: scale(0.92);
+    background-color: white;
+    color:#D2BA6C;
+    border: 2px solid #D2BA6C;
+}
 @media(max-width:1160px) {
 
     .mahsulotlar-form input,
