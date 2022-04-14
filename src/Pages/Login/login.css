@@ -24,7 +24,7 @@ html {
   padding: 0 4rem;
 }
 .loginHead button {
-  background-color: #fff;
+  background-color: rgb(207, 160, 4);
   border: none;
   color: #191a1e;
   font-size: 2rem;
@@ -37,6 +37,7 @@ html {
 }
 .loginHead button:hover {
   color: rgb(207, 160, 4);
+  background-color: #fff;
 }
 .form {
   display: flex;
