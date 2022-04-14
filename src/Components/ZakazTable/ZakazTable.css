@@ -356,7 +356,7 @@ input:checked+.slider:before {
     .zakaz-button {
         position: absolute;
         top: 110%;
-        left: 50%;
+        left: 60%;
         /* transform: translate(-50%,-50%); */
         background: #D2BA6C;
         color: white;
@@ -511,7 +511,7 @@ input:checked+.slider:before {
     .zakaz-button {
         position: absolute;
         top: 110%;
-        left: 55%;
+        left: 65%;
         /* transform: translate(-50%,-50%); */
         background: #D2BA6C;
         color: white;
@@ -520,6 +520,7 @@ input:checked+.slider:before {
         padding: 10px;
         font-size: 18px;
         z-index: 10000;
+        padding: 8px 10px;
     }
 }
 
@@ -658,7 +659,7 @@ input:checked+.slider:before {
     .zakaz-button {
         position: absolute;
         top: 110%;
-        left: 60%;
+        left: 70%;
         /* transform: translate(-50%,-50%); */
         background: #D2BA6C;
         color: white;
@@ -815,7 +816,7 @@ input:checked+.slider:before {
     .zakaz-button {
         position: absolute;
         top: 110%;
-        left: 60%;
+        left: 70%;
         /* transform: translate(-50%,-50%); */
         background: #D2BA6C;
         color: white;
@@ -963,7 +964,7 @@ input:checked+.slider:before {
     .zakaz-button {
         position: absolute;
         top: 110%;
-        left: 60%;
+        left: 70%;
         /* transform: translate(-50%,-50%); */
         background: #D2BA6C;
         color: white;
@@ -1176,7 +1177,7 @@ input:checked+.slider:before {
     .zakaz-button {
         position: absolute;
         top: 110%;
-        left: 70%;
+        left: 83%;
         /* transform: translate(-50%,-50%); */
         background: #D2BA6C;
         color: white;
