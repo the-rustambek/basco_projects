@@ -13,7 +13,7 @@ const MahsulotlarPage = () =>{
              </h3>
              <form className="mahsulotlar-form">
                  <label >
-             <input className="mahsulotlar-input" type="date" id="start" name="date-before" value="Date before"
+             <input className="mahsulotlar-input" type="date" id="start" name="date-before" 
                 placeholder="Date" required />
                 <textarea required placeholder="Izoh..." className="mahsulotlar-textarea"></textarea>
                 </label>

@@ -133,8 +133,6 @@ td {
 
 
 
-
-
 .switch {
     position: relative;
     display: inline-block;
@@ -1189,3 +1187,22 @@ input:checked+.slider:before {
         z-index: 10000;
     }
 }
+
+
+/* 
+
+.zakaz-main thead {
+
+    position: fixed;
+    width: 1190px;
+background-color: black;
+}
+
+
+.zakaz-main thead tr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+} */
