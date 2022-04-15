@@ -63,3 +63,69 @@
 .menu-btns{
     display: none;
 }
+
+
+
+.modal{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.close-btn{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 3.5%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 97.5%;
+    cursor: pointer;
+}
+
+.account-form{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.account-input{
+    width: 280px;
+    padding: 5px 15px;
+    font-size: 18px;
+    
+    outline: none;
+    border-radius: 5px;
+    border:1px solid black;
+
+}
+
+.account-btn{
+    background-color: #D2BA6C;
+    padding: 5px 20px;
+    width: 120px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin: 20px 0;
+    font-size: 20px;
+transition: 0.3s;
+    text-align: center;
+    cursor: pointer;
+}
+
+.account-btn:hover{
+    background-color: black;
+    color: #D2BA6C;
+}
