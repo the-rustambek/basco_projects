@@ -1204,20 +1204,15 @@ input:checked+.slider:before {
 }
 
 
-/* 
+ 
 
-.zakaz-main thead {
-
-    position: fixed;
-    width: 1190px;
-background-color: black;
+.zakaz-main table thead{
+    position: relative;
 }
-
-
-.zakaz-main thead tr {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.zakaz-main table thead tr{
+    position: sticky;
+    top: 0;
+    /* width: 100%;
+    left: 0; */
     width: 100%;
-
-} */
+}
