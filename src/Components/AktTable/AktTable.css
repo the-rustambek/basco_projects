@@ -125,6 +125,7 @@ main {
     margin: 30px;
 }
 
+
 @media (min-width: 280px) {
     table {
         display: table;

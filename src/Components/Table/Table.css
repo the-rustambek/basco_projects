@@ -120,11 +120,18 @@ td {
 
 
 main {
-    height: 80vh;
+    height: 70vh;
     overflow-y: scroll;
     margin: 30px;
 }
 
+.akt-main table thead tr{
+    position: sticky;
+    top: 0;
+    /* width: 100%;
+    left: 0; */
+    width: 100%;
+}
 
 .buyurtma-completed{
     background-color: rgb(137, 213, 147);
@@ -719,4 +726,14 @@ input:checked+.slider:before {
 
 
 
+}
+
+
+
+.buyurtmalar-main table thead tr{
+    position: sticky;
+    top: 0;
+    /* width: 100%;
+    left: 0; */
+    width: 100%;
 }

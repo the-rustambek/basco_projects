@@ -2,7 +2,7 @@ import "./Table.css";
 
 const Table = () =>{
 return(
-<main>
+<main className="buyurtmalar-main">
   <table>
     <thead>
       <tr>

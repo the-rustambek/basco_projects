@@ -1206,9 +1206,9 @@ input:checked+.slider:before {
 
  
 
-.zakaz-main table thead{
+/* .zakaz-main table thead{
     position: relative;
-}
+} */
 .zakaz-main table thead tr{
     position: sticky;
     top: 0;
