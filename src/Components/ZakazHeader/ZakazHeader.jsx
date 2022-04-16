@@ -4,7 +4,6 @@ import searchIcon from "../../Assets/Img/search1.png"
 import { IoMdReorder } from "react-icons/io";
 import Modal from "../Modal/Modal";
 import { useState } from "react";
-
 const ZakazHeader = () =>{
     const [accountModal,setAccountModal] = useState(false);
     function openAccountModal(){
