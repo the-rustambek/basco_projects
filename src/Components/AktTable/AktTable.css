@@ -1,54 +1,49 @@
 * {
     box-sizing: border-box;
-
-}
-
-table {
-    
+  }
+  
+  table {
     display: block;
     background-color: black;
     border: 1px solid black;
-}
-
-thead {
-    
+    position: relative;
+  }
+  
+  thead {
     background-color: black;
-}
-
-tr,
-td,
-tbody {
-    
+    /* position: fixed; */
+  }
+  
+  tr,
+  td,
+  tbody {
     display: block;
-}
-
-tr {
+  }
+  
+  tr {
     padding-bottom: 10px;
     color: white;
-    
-
-}
-
-td {
+  }
+  
+  td {
     padding: 10px 10px 0;
     text-align: center;
-}
-
-td:before {
+  }
+  
+  td:before {
     content: attr(data-title);
     color: #7a91aa;
     text-transform: uppercase;
     font-size: 1.4rem;
     padding-right: 10px;
     display: block;
-
-}
-
-table {
+  }
+  
+  table {
     width: 100%;
-}
-
-th {
+  }
+  
+  th {
     text-align: left;
     color: white;
     font-weight: 700;
@@ -56,19 +51,16 @@ th {
     font-weight: 400;
     font-size: 19px;
     line-height: 24px;
-
-    color: #FFFFFF;
-
-}
-
-thead th {
+    color: #ffffff;
+  }
+  
+  thead th {
     background-color: black;
     color: #fff;
     border: 1px solid black;
-}
-
-
-.button {
+  }
+  
+  .button {
     line-height: 1;
     display: inline-block;
     font-size: 1.2rem;
@@ -76,346 +68,318 @@ thead th {
     border-radius: 5px;
     color: #fff;
     padding: 8px 25px;
-    background: #D2BA6C;
+    background: #d2ba6c;
     border-radius: 3px;
     border: none;
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
     line-height: 12px;
-}
-
-tbody {
+  }
+  
+  tbody {
     color: black;
     background-color: white;
-}
-
-tr {
+  }
+  
+  tr {
     background-color: white;
-}
-
-td {
+  }
+  
+  td {
     color: black;
     border: none;
     background-color: white;
-}
-
-.select {
+  }
+  
+  .select {
     padding-bottom: 20px;
-
-}
-
-/* width */
-::-webkit-scrollbar {
+  }
+  
+  /* width */
+  ::-webkit-scrollbar {
     width: 4px;
-}
-
-
-/* Handle */
-::-webkit-scrollbar-thumb {
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
     background: black;
-
-}
-
-
-
-main {
+  }
+  
+  main {
     height: 80vh;
     overflow-y: scroll;
-    margin: 30px;
-}
-
-
-@media (min-width: 280px) {
+  }
+  .sumColum {
+    width: 50%;
+    font-size: 30rem;
+    position: absolute;
+  }
+  
+  @media (min-width: 280px) {
     table {
-        display: table;
+      display: table;
     }
-
+  
     tr {
-        display: table-row;
+      display: table-row;
     }
-
+  
     button {
-        padding: 2px 4px;
-        font-size: 8px;
-        font-weight: 100;
-
+      padding: 2px 4px;
+      font-size: 8px;
+      font-weight: 100;
     }
-
-
-
+  
     tbody {
-        display: table-row-group;
+      display: table-row-group;
     }
-
+  
     thead {
-        display: table-header-group;
+      display: table-header-group;
     }
-
+  
     tfoot {
-        display: table-footer-group;
+      display: table-footer-group;
     }
-
-
+  
     td:before {
-        display: none;
+      display: none;
     }
-
+  
     tfoot th {
-        display: table-cell;
+      display: table-cell;
     }
-
+  
     .select {
-        padding: 6px;
+      padding: 6px;
     }
-
-
+  
     body .main td,
     body .main th {
-        display: table-cell;
-        font-size: 7px;
-        padding: 2px;
-        font-weight: 300;
-
+      display: table-cell;
+      font-size: 7px;
+      padding: 2px;
+      font-weight: 300;
     }
-
+  
     body .main .select button {
-        padding: 3px;
-        font-weight: 100;
-        font-size: 10px;
+      padding: 3px;
+      font-weight: 100;
+      font-size: 10px;
     }
-
-
+  
     /* .main .header .header-input{
-        width: 100%;
-        
-        padding: 8px 10px;
-    }
-
-    .main .header-avatar{
-        display: none;
-    } */
-
-
-}
-
-@media (min-width: 420px) {
+          width: 100%;
+          
+          padding: 8px 10px;
+      }
+      .main .header-avatar{
+          display: none;
+      } */
+  }
+  
+  @media (min-width: 420px) {
     table {
-        display: table;
+      display: table;
     }
-
+  
     tr {
-        display: table-row;
+      display: table-row;
     }
-
+  
     main table tbody .select button {
-        padding: 4px;
+      padding: 4px;
     }
-
+  
     body .main td,
     body .main th {
-        display: table-cell;
-        font-size: 11px;
+      display: table-cell;
+      font-size: 11px;
     }
-
+  
     tbody {
-        display: table-row-group;
+      display: table-row-group;
     }
-
+  
     thead {
-        display: table-header-group;
+      display: table-header-group;
     }
-
+  
     tfoot {
-        display: table-footer-group;
+      display: table-footer-group;
     }
-
+  
     td:before {
-        display: none;
+      display: none;
     }
-
+  
     .main td,
     .main th {
-        padding: 6px;
+      padding: 6px;
     }
-
+  
     tfoot th {
-        display: table-cell;
+      display: table-cell;
     }
-
+  
     .select {
-        padding: 10px;
+      padding: 10px;
     }
-
-}
-
-@media (min-width: 520px) {
-
-
-
+  }
+  
+  @media (min-width: 520px) {
     body .main td,
     body .main th {
-        display: table-cell;
-        font-size: 15px;
+      display: table-cell;
+      font-size: 15px;
     }
-
+  
     tbody {
-        display: table-row-group;
+      display: table-row-group;
     }
-
+  
     thead {
-        display: table-header-group;
+      display: table-header-group;
     }
-
+  
     tfoot {
-        display: table-footer-group;
+      display: table-footer-group;
     }
-
-
+  
     td:before {
-        display: none;
+      display: none;
     }
-
-
-
-
+  
     tfoot th {
-        display: table-cell;
+      display: table-cell;
     }
-
+  
     body .main .select button {
-        padding: 5px;
+      padding: 5px;
     }
-
+  
     .select {
-        padding: 10px;
+      padding: 10px;
     }
-}
-
-@media (min-width: 630px) {
+  }
+  
+  @media (min-width: 630px) {
     table {
-        display: table;
+      display: table;
     }
-
+  
     tr {
-        display: table-row;
+      display: table-row;
     }
-
+  
     body .main td,
     body .main th {
-        display: table-cell;
-        font-size: 16px;
+      display: table-cell;
+      font-size: 16px;
     }
-
+  
     tbody {
-        display: table-row-group;
+      display: table-row-group;
     }
-
+  
     thead {
-        display: table-header-group;
+      display: table-header-group;
     }
-
+  
     tfoot {
-        display: table-footer-group;
+      display: table-footer-group;
     }
-
-
+  
     td:before {
-        display: none;
+      display: none;
     }
-
+  
     td,
     th {
-        padding: 10px;
+      padding: 10px;
     }
-
-
+  
     body .main .select button {
-        padding: 5px 8px;
-
+      padding: 5px 8px;
     }
-
+  
     tfoot th {
-        display: table-cell;
+      display: table-cell;
     }
-
+  
     .select {
-        padding: 10px;
+      padding: 10px;
     }
-}
-
-@media (min-width: 720px) {
+  }
+  
+  @media (min-width: 720px) {
     table {
-        display: table;
+      display: table;
     }
-
+  
     body .main .select button {
-        padding: 12px;
+      padding: 12px;
     }
-
+  
     tr {
-        display: table-row;
+      display: table-row;
     }
-
+  
     body .main td,
     body .main th {
-        display: table-cell;
-        font-size: 18px;
+      display: table-cell;
+      font-size: 18px;
     }
-
+  
     tbody {
-        display: table-row-group;
+      display: table-row-group;
     }
-
+  
     thead {
-        display: table-header-group;
+      display: table-header-group;
     }
-
+  
     tfoot {
-        display: table-footer-group;
+      display: table-footer-group;
     }
-
-
+  
     td:before {
-        display: none;
+      display: none;
     }
-
+  
     body .main td,
     body .main th {
-        padding: 6px;
-        text-align: center;
+      padding: 6px;
+      text-align: center;
     }
-
-
-
+  
     tfoot th {
-        display: table-cell;
+      display: table-cell;
     }
-
+  
     .select {
-        padding: 10px;
+      padding: 10px;
     }
-    
+  
     body .main .select button {
-
-        line-height: 1;
-        display: inline-block;
-        font-size: 1.2rem;
-        text-decoration: none;
-        border-radius: 5px;
-        color: #fff;
-        padding: 8px 25px;
-        background: #D2BA6C;
-        border-radius: 3px;
-        border: none;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 15px;
-        line-height: 12px;
+      line-height: 1;
+      display: inline-block;
+      font-size: 1.2rem;
+      text-decoration: none;
+      border-radius: 5px;
+      color: #fff;
+      padding: 8px 25px;
+      background: #d2ba6c;
+      border-radius: 3px;
+      border: none;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 12px;
     }
-}
-
-
-.akt-main{
+  }
+  
+  .akt-main {
     margin-top: 30px;
-}
+  }

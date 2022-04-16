@@ -30,6 +30,7 @@
 }
 
 .header-account {
+    cursor: pointer;
     display: flex;
     justify-content: center;
     /* align-items: center; */
@@ -68,6 +69,7 @@
 
 .modal{
     position: relative;
+    z-index: 1011111111111111;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,6 +125,7 @@
 transition: 0.3s;
     text-align: center;
     cursor: pointer;
+    
 }
 
 .account-btn:hover{

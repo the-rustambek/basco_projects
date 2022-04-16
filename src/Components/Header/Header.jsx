@@ -32,6 +32,8 @@ return (
                     &times;
                 </button>
 
+                {/* <h2 class>Tahrirlash</h2> */}
+
                 <form className="account-form">
                     <input type="password" className="account-input" required  placeholder="password" />
                     <button className="account-btn">

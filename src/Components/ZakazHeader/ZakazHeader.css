@@ -32,6 +32,7 @@
 .zakazHeader-account {
     display: flex;
     justify-content: center;
+    cursor: pointer;
     /* align-items: center; */
 }
 

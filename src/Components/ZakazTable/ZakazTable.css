@@ -354,6 +354,7 @@ input:checked+.slider:before {
     }
 
     .zakaz-button {
+
         cursor: pointer;
         position: absolute;
         top: 110%;
@@ -365,7 +366,9 @@ input:checked+.slider:before {
         border-radius: 3px;
         padding: 6px 10px;
         font-size: 14px;
-        z-index: 10000;
+        
+        z-index: -10;
+    z-index: -100;
     }
 
 }
@@ -510,6 +513,7 @@ input:checked+.slider:before {
     }
 
     .zakaz-button {
+
         cursor: pointer;
         position: absolute;
         top: 110%;
@@ -521,7 +525,9 @@ input:checked+.slider:before {
         border-radius: 3px;
         padding: 10px;
         font-size: 18px;
+        
         z-index: 10000;
+       z-index: -100;
         padding: 8px 10px;
     }
 }
@@ -659,6 +665,7 @@ input:checked+.slider:before {
     }
 
     .zakaz-button {
+
         cursor: pointer;
         position: absolute;
         top: 110%;
@@ -670,7 +677,9 @@ input:checked+.slider:before {
         border-radius: 3px;
         padding: 10px 15px;
         font-size: 18px;
+        
         z-index: 10000;
+    z-index: -100;
     }
 }
 
@@ -817,6 +826,7 @@ input:checked+.slider:before {
     }
 
     .zakaz-button {
+
         cursor: pointer;
         position: absolute;
         top: 110%;
@@ -828,7 +838,9 @@ input:checked+.slider:before {
         border-radius: 3px;
         padding: 10px 15px;
         font-size: 18px;
+        
         z-index: 10000;
+    z-index: -100;
     }
 }
 
@@ -966,6 +978,7 @@ input:checked+.slider:before {
     }
 
     .zakaz-button {
+
         cursor: pointer;
         position: absolute;
         top: 110%;
@@ -977,7 +990,9 @@ input:checked+.slider:before {
         border-radius: 3px;
         padding: 10px 25px;
         font-size: 18px;
+        
         z-index: 10000;
+    z-index: -100;
     }
 
 }
@@ -1180,6 +1195,7 @@ input:checked+.slider:before {
     }
 
     .zakaz-button {
+
         cursor: pointer;
         position: absolute;
         top: 110%;
@@ -1191,7 +1207,9 @@ input:checked+.slider:before {
         border-radius: 5px;
         padding: 10px 25px;
         font-size: 18px;
+        
         z-index: 10000;
+       z-index: -100;
         transition: 0.3s;
         border: 2px solid white;
     }
