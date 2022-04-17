@@ -97,6 +97,7 @@ tr {
 td {
     color: black;
     border: none;
+    cursor: pointer;
     background-color: white;
 }
 
@@ -120,7 +121,7 @@ td {
 
 
 main {
-    height: 70vh;
+    height: 76vh;
     overflow-y: scroll;
     margin: 30px;
 }
@@ -220,6 +221,32 @@ input:checked+.slider:before {
     border-radius: 50%;
 }
 
+
+.modalTable-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    box-shadow: 0px 5px 20px black;
+}
+
+.modalTable-title, .modalTable-text, .modalTable-olchov, .modalTable-cost, .modalTable-count{
+    font-size: 20px;
+
+}
+.modal{
+    min-height: 100px;
+    /* background-color: red; */
+}
+.table-modal{
+    position: relative;
+}
+.modalClose-btn{
+    position: absolute;
+    top: 0%;
+    left: 100%;
+}
 
 
 @media (min-width: 280px) {
