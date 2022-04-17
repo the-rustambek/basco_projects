@@ -124,9 +124,10 @@ td {
 
 
 .zakaz-main {
-    height: 61vh;
+    height: 70vh;
     overflow-y: scroll;
     margin: 30px;
+    margin-bottom: 100px;
 }
 
 
@@ -354,10 +355,12 @@ input:checked+.slider:before {
     }
 
     .zakaz-button {
+        cursor: pointer;
+        margin-top: 30px;
 
         cursor: pointer;
         position: absolute;
-        top: 110%;
+        top: 100%;
         left: 60%;
         /* transform: translate(-50%,-50%); */
         background: #D2BA6C;
@@ -366,9 +369,12 @@ input:checked+.slider:before {
         border-radius: 3px;
         padding: 6px 10px;
         font-size: 14px;
-        
+        transition: 0.3s;
         z-index: -10;
     z-index: -100;
+    }
+    .zakaz-button:hover{
+        cursor: pointer;
     }
 
 }
@@ -513,10 +519,12 @@ input:checked+.slider:before {
     }
 
     .zakaz-button {
+        cursor: pointer;
+        margin-top: 30px;
 
         cursor: pointer;
         position: absolute;
-        top: 110%;
+        top: 100%;
         left: 65%;
         /* transform: translate(-50%,-50%); */
         background: #D2BA6C;
@@ -665,10 +673,12 @@ input:checked+.slider:before {
     }
 
     .zakaz-button {
+        cursor: pointer;
+        margin-top: 30px;
 
         cursor: pointer;
         position: absolute;
-        top: 110%;
+        top: 100%;
         left: 70%;
         /* transform: translate(-50%,-50%); */
         background: #D2BA6C;
@@ -826,10 +836,12 @@ input:checked+.slider:before {
     }
 
     .zakaz-button {
+        cursor: pointer;
+        margin-top: 30px;
 
         cursor: pointer;
         position: absolute;
-        top: 110%;
+        top: 100%;
         left: 70%;
         /* transform: translate(-50%,-50%); */
         background: #D2BA6C;
@@ -978,10 +990,12 @@ input:checked+.slider:before {
     }
 
     .zakaz-button {
+        cursor: pointer;
+        margin-top: 30px;
 
         cursor: pointer;
         position: absolute;
-        top: 110%;
+        top: 100%;
         left: 70%;
         /* transform: translate(-50%,-50%); */
         background: #D2BA6C;
@@ -1002,6 +1016,7 @@ input:checked+.slider:before {
 @media (min-width: 920px) {
     .zakaz-main {
         margin: 30px;
+        /* margin-bottom: 70px; */
     }
     table {
         display: table;
@@ -1195,10 +1210,12 @@ input:checked+.slider:before {
     }
 
     .zakaz-button {
+        cursor: pointer;
+        margin-top: 30px;
 
         cursor: pointer;
         position: absolute;
-        top: 110%;
+        top: 100%;
         left: 83%;
         /* transform: translate(-50%,-50%); */
         background: #D2BA6C;
@@ -1233,4 +1250,10 @@ input:checked+.slider:before {
     /* width: 100%;
     left: 0; */
     width: 100%;
+}
+
+
+body .zakaz-page .zakaz-button:hover{
+    cursor: pointer;
+    
 }
