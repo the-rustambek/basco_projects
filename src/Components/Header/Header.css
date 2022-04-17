@@ -18,6 +18,14 @@
     border: none;
     width: 383px;
     font-size: 15px;
+    border: 1px solid black;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.header-input:hover{
+    border: 1px solid #D2BA6C;
+    color: #D2BA6C;
 }
 
 .header-avatar {
@@ -113,7 +121,11 @@
     outline: none;
     border-radius: 5px;
     border:1px solid black;
-
+    transition: 0.3s;
+}
+.account-input:hover{
+    border: 1px solid #D2BA6C;
+    color: #D2BA6C;
 }
 
 .account-btn{
