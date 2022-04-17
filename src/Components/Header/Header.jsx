@@ -6,10 +6,10 @@ import { useState } from "react";
 import Modal from "../Modal/Modal";
 
 const Header = () =>{
-    const [accountModal,setAccountModal] = useState(false);
-    function openAccountModal(){
-        setAccountModal(!accountModal)
-    }
+const [accountModal,setAccountModal] = useState(false);
+function openAccountModal(){
+setAccountModal(!accountModal)
+}
 return (
 <header className="header">
     <button className="menu-btns">
@@ -19,31 +19,33 @@ return (
         <input type="text" className="header-input" placeholder="Search" required />
         <img src={searchIcon} alt="search" className="header-search" />
     </form>
-    <div className="header-account" onClick={() =>openAccountModal()}>
+    <div className="header-account" onClick={()=>openAccountModal()}>
         <img src={Avatar} alt="Avatar" className="header-avatar" />
         <span className="header-span">
             John Doe
         </span>
     </div>
 
-    <Modal className="modal account-modal"
-     show={accountModal} w={400} mh={240}>
-    <button className="close-btn" onClick={()=>setAccountModal()}>
-                    &times;
-                </button>
+    <Modal className="modal account-modal" show={accountModal} w={350} mh={208}>
+        <button className="close-btn" onClick={()=>setAccountModal()}>
+            &times;
+        </button>
 
-                {/* <h2 class>Tahrirlash</h2> */}
+        {/* <h2 class>Tahrirlash</h2> */}
 
-                <form className="account-form">
-                    <input type="password" className="account-input" required  placeholder="password" />
-                    <button className="account-btn">
-                        Edit
-                    </button>
+        <form className="account-form">
+            <input type="password" className="account-input" required placeholder="password" />
+            <button className="account-btn">
+                Edit
+            </button>
 
-                </form>
-                </Modal>
+        </form>
+    </Modal>
 
 </header>
+
+
+
 )
 }
 export default Header;
