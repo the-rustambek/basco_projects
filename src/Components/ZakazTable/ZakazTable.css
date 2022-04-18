@@ -206,6 +206,7 @@ input:checked+.slider:before {
     .zakaz-main {
         margin: 20px 10px;
     }
+
     table {
         display: table;
     }
@@ -371,9 +372,10 @@ input:checked+.slider:before {
         font-size: 14px;
         transition: 0.3s;
         z-index: -10;
-    z-index: -100;
+        z-index: -100;
     }
-    .zakaz-button:hover{
+
+    .zakaz-button:hover {
         cursor: pointer;
     }
 
@@ -383,6 +385,7 @@ input:checked+.slider:before {
     .zakaz-main {
         margin: 20px 10px;
     }
+
     table {
         display: table;
     }
@@ -533,9 +536,9 @@ input:checked+.slider:before {
         border-radius: 3px;
         padding: 10px;
         font-size: 18px;
-        
+
         z-index: 10000;
-       z-index: -100;
+        z-index: -100;
         padding: 8px 10px;
     }
 }
@@ -687,9 +690,9 @@ input:checked+.slider:before {
         border-radius: 3px;
         padding: 10px 15px;
         font-size: 18px;
-        
+
         z-index: 10000;
-    z-index: -100;
+        z-index: -100;
     }
 }
 
@@ -697,6 +700,7 @@ input:checked+.slider:before {
     .zakaz-main {
         margin: 20px;
     }
+
     table {
         display: table;
     }
@@ -850,9 +854,9 @@ input:checked+.slider:before {
         border-radius: 3px;
         padding: 10px 15px;
         font-size: 18px;
-        
+
         z-index: 10000;
-    z-index: -100;
+        z-index: -100;
     }
 }
 
@@ -860,6 +864,7 @@ input:checked+.slider:before {
     .zakaz-main {
         margin: 30px;
     }
+
     table {
         display: table;
     }
@@ -1004,9 +1009,9 @@ input:checked+.slider:before {
         border-radius: 3px;
         padding: 10px 25px;
         font-size: 18px;
-        
+
         z-index: 10000;
-    z-index: -100;
+        z-index: -100;
     }
 
 }
@@ -1018,6 +1023,7 @@ input:checked+.slider:before {
         margin: 30px;
         /* margin-bottom: 70px; */
     }
+
     table {
         display: table;
     }
@@ -1224,27 +1230,28 @@ input:checked+.slider:before {
         border-radius: 5px;
         padding: 10px 25px;
         font-size: 18px;
-        
+
         z-index: 10000;
-       z-index: -100;
+        z-index: -100;
         transition: 0.3s;
         border: 2px solid white;
     }
-    .zakaz-button:hover{
+
+    .zakaz-button:hover {
         transform: scale(0.92);
         background-color: white;
-        color:#D2BA6C;
+        color: #D2BA6C;
         border: 2px solid #D2BA6C;
     }
 }
 
 
- 
+
 
 /* .zakaz-main table thead{
     position: relative;
 } */
-.zakaz-main table thead tr{
+.zakaz-main table thead tr {
     position: sticky;
     top: 0;
     /* width: 100%;
@@ -1253,7 +1260,10 @@ input:checked+.slider:before {
 }
 
 
-body .zakaz-page .zakaz-button:hover{
+body .zakaz-page .zakaz-button:hover {
     cursor: pointer;
-    
+
 }
+
+
+

@@ -69,7 +69,7 @@ return(
           1 600 000 so’m
         </td>
         <td className='select'>
-          <button className='button'>
+          <button className='button button1'>
             Buyurtma berish
           </button>
         </td>
@@ -79,7 +79,8 @@ return(
           </span>
         </td>
       </tr>
-      <tr onClick={()=> openTableModal()}>
+     
+      <tr className="tr" id="tr1">
         <td data-title='ID'>
           6
         </td>
@@ -93,18 +94,19 @@ return(
           1 600 000 so’m
         </td>
         <td className='select'>
-          <button className='button'>
+          <button className='button button1'>
             Buyurtma berish
           </button>
         </td>
         <td>
-          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
-            UnCompleted
+          <span onClick={()=> openTableModal()} className="buyurtma-completed">
+            Completed
           </span>
         </td>
       </tr>
 
-      <tr onClick={()=> openTableModal()}>
+     
+      <tr className="tr" id="tr1">
         <td data-title='ID'>
           6
         </td>
@@ -118,17 +120,18 @@ return(
           1 600 000 so’m
         </td>
         <td className='select'>
-          <button className='button'>
+          <button className='button button1'>
             Buyurtma berish
           </button>
         </td>
         <td>
-          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
+          <span onClick={()=> openTableModal()} className="buyurtma-uncompleted">
             UnCompleted
           </span>
         </td>
       </tr>
-      <tr onClick={()=> openTableModal()}>
+     
+      <tr className="tr" id="tr1">
         <td data-title='ID'>
           6
         </td>
@@ -142,17 +145,18 @@ return(
           1 600 000 so’m
         </td>
         <td className='select'>
-          <button className='button'>
+          <button className='button button1'>
             Buyurtma berish
           </button>
         </td>
         <td>
-          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
-            UnCompleted
+          <span onClick={()=> openTableModal()} className="buyurtma-completed">
+            Completed
           </span>
         </td>
       </tr>
-      <tr onClick={()=> openTableModal()}>
+     
+      <tr className="tr" id="tr1">
         <td data-title='ID'>
           6
         </td>
@@ -166,17 +170,18 @@ return(
           1 600 000 so’m
         </td>
         <td className='select'>
-          <button className='button'>
+          <button className='button button1'>
             Buyurtma berish
           </button>
         </td>
         <td>
-          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
-            UnCompleted
+          <span onClick={()=> openTableModal()} className="buyurtma-completed">
+            Completed
           </span>
         </td>
       </tr>
-      <tr onClick={()=> openTableModal()}>
+     
+      <tr className="tr" id="tr1">
         <td data-title='ID'>
           6
         </td>
@@ -190,17 +195,18 @@ return(
           1 600 000 so’m
         </td>
         <td className='select'>
-          <button className='button'>
+          <button className='button button1'>
             Buyurtma berish
           </button>
         </td>
         <td>
-          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
-            UnCompleted
+          <span onClick={()=> openTableModal()} className="buyurtma-completed">
+            Completed
           </span>
         </td>
       </tr>
-      <tr onClick={()=> openTableModal()}>
+     
+      <tr className="tr" id="tr1">
         <td data-title='ID'>
           6
         </td>
@@ -214,17 +220,18 @@ return(
           1 600 000 so’m
         </td>
         <td className='select'>
-          <button className='button'>
+          <button className='button button1'>
             Buyurtma berish
           </button>
         </td>
         <td>
-          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
-            UnCompleted
+          <span onClick={()=> openTableModal()} className="buyurtma-completed">
+            Completed
           </span>
         </td>
       </tr>
-      <tr onClick={()=> openTableModal()}>
+     
+      <tr className="tr" id="tr1">
         <td data-title='ID'>
           6
         </td>
@@ -238,17 +245,18 @@ return(
           1 600 000 so’m
         </td>
         <td className='select'>
-          <button className='button'>
+          <button className='button button1'>
             Buyurtma berish
           </button>
         </td>
         <td>
-          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
-            UnCompleted
+          <span onClick={()=> openTableModal()} className="buyurtma-completed">
+            Completed
           </span>
         </td>
       </tr>
-      <tr onClick={()=> openTableModal()}>
+     
+      <tr className="tr" id="tr1">
         <td data-title='ID'>
           6
         </td>
@@ -262,17 +270,18 @@ return(
           1 600 000 so’m
         </td>
         <td className='select'>
-          <button className='button'>
+          <button className='button button1'>
             Buyurtma berish
           </button>
         </td>
         <td>
-          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
-            UnCompleted
+          <span onClick={()=> openTableModal()} className="buyurtma-completed">
+            Completed
           </span>
         </td>
       </tr>
-      <tr onClick={()=> openTableModal()}>
+     
+      <tr className="tr" id="tr1">
         <td data-title='ID'>
           6
         </td>
@@ -286,17 +295,18 @@ return(
           1 600 000 so’m
         </td>
         <td className='select'>
-          <button className='button'>
+          <button className='button button1'>
             Buyurtma berish
           </button>
         </td>
         <td>
-          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
-            UnCompleted
+          <span onClick={()=> openTableModal()} className="buyurtma-completed">
+            Completed
           </span>
         </td>
       </tr>
-      <tr onClick={()=> openTableModal()}>
+     
+      <tr className="tr" id="tr1">
         <td data-title='ID'>
           6
         </td>
@@ -310,17 +320,18 @@ return(
           1 600 000 so’m
         </td>
         <td className='select'>
-          <button className='button'>
+          <button className='button button1'>
             Buyurtma berish
           </button>
         </td>
         <td>
-          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
-            UnCompleted
+          <span onClick={()=> openTableModal()} className="buyurtma-completed">
+            Completed
           </span>
         </td>
       </tr>
-      <tr onClick={()=> openTableModal()}>
+     
+      <tr className="tr" id="tr1">
         <td data-title='ID'>
           6
         </td>
@@ -334,17 +345,18 @@ return(
           1 600 000 so’m
         </td>
         <td className='select'>
-          <button className='button'>
+          <button className='button button1'>
             Buyurtma berish
           </button>
         </td>
         <td>
-          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
-            UnCompleted
+          <span onClick={()=> openTableModal()} className="buyurtma-completed">
+            Completed
           </span>
         </td>
       </tr>
-      <tr onClick={()=> openTableModal()}>
+     
+      <tr className="tr" id="tr1">
         <td data-title='ID'>
           6
         </td>
@@ -358,17 +370,18 @@ return(
           1 600 000 so’m
         </td>
         <td className='select'>
-          <button className='button'>
+          <button className='button button1'>
             Buyurtma berish
           </button>
         </td>
         <td>
-          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
-            UnCompleted
+          <span onClick={()=> openTableModal()} className="buyurtma-completed">
+            Completed
           </span>
         </td>
       </tr>
-      <tr onClick={()=> openTableModal()}>
+     
+      <tr className="tr" id="tr1">
         <td data-title='ID'>
           6
         </td>
@@ -382,17 +395,18 @@ return(
           1 600 000 so’m
         </td>
         <td className='select'>
-          <button className='button'>
+          <button className='button button1'>
             Buyurtma berish
           </button>
         </td>
         <td>
-          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
-            UnCompleted
+          <span onClick={()=> openTableModal()} className="buyurtma-completed">
+            Completed
           </span>
         </td>
       </tr>
-      <tr onClick={()=> openTableModal()}>
+     
+      <tr className="tr" id="tr1">
         <td data-title='ID'>
           6
         </td>
@@ -406,17 +420,18 @@ return(
           1 600 000 so’m
         </td>
         <td className='select'>
-          <button className='button'>
+          <button className='button button1'>
             Buyurtma berish
           </button>
         </td>
         <td>
-          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
-            UnCompleted
+          <span onClick={()=> openTableModal()} className="buyurtma-completed">
+            Completed
           </span>
         </td>
       </tr>
-      <tr onClick={()=> openTableModal()}>
+     
+      <tr className="tr" id="tr1">
         <td data-title='ID'>
           6
         </td>
@@ -430,17 +445,18 @@ return(
           1 600 000 so’m
         </td>
         <td className='select'>
-          <button className='button'>
+          <button className='button button1'>
             Buyurtma berish
           </button>
         </td>
         <td>
-          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
-            UnCompleted
+          <span onClick={()=> openTableModal()} className="buyurtma-completed">
+            Completed
           </span>
         </td>
       </tr>
-      <tr onClick={()=> openTableModal()}>
+     
+      <tr className="tr" id="tr1">
         <td data-title='ID'>
           6
         </td>
@@ -454,17 +470,18 @@ return(
           1 600 000 so’m
         </td>
         <td className='select'>
-          <button className='button'>
+          <button className='button button1'>
             Buyurtma berish
           </button>
         </td>
         <td>
-          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
-            UnCompleted
+          <span onClick={()=> openTableModal()} className="buyurtma-completed">
+            Completed
           </span>
         </td>
       </tr>
-      <tr onClick={()=> openTableModal()}>
+     
+      <tr className="tr" id="tr1">
         <td data-title='ID'>
           6
         </td>
@@ -478,17 +495,18 @@ return(
           1 600 000 so’m
         </td>
         <td className='select'>
-          <button className='button'>
+          <button className='button button1'>
             Buyurtma berish
           </button>
         </td>
         <td>
-          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
-            UnCompleted
+          <span onClick={()=> openTableModal()} className="buyurtma-completed">
+            Completed
           </span>
         </td>
       </tr>
-      <tr onClick={()=> openTableModal()}>
+     
+      <tr className="tr" id="tr1">
         <td data-title='ID'>
           6
         </td>
@@ -502,17 +520,18 @@ return(
           1 600 000 so’m
         </td>
         <td className='select'>
-          <button className='button'>
+          <button className='button button1'>
             Buyurtma berish
           </button>
         </td>
         <td>
-          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
-            UnCompleted
+          <span onClick={()=> openTableModal()} className="buyurtma-completed">
+            Completed
           </span>
         </td>
       </tr>
-      <tr onClick={()=> openTableModal()}>
+     
+      <tr className="tr" id="tr1">
         <td data-title='ID'>
           6
         </td>
@@ -526,17 +545,18 @@ return(
           1 600 000 so’m
         </td>
         <td className='select'>
-          <button className='button'>
+          <button className='button button1'>
             Buyurtma berish
           </button>
         </td>
         <td>
-          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
-            UnCompleted
+          <span onClick={()=> openTableModal()} className="buyurtma-completed">
+            Completed
           </span>
         </td>
       </tr>
-      <tr onClick={()=> openTableModal()}>
+     
+      <tr className="tr" id="tr1">
         <td data-title='ID'>
           6
         </td>
@@ -550,17 +570,18 @@ return(
           1 600 000 so’m
         </td>
         <td className='select'>
-          <button className='button'>
+          <button className='button button1'>
             Buyurtma berish
           </button>
         </td>
         <td>
-          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
-            UnCompleted
+          <span onClick={()=> openTableModal()} className="buyurtma-completed">
+            Completed
           </span>
         </td>
       </tr>
-      <tr onClick={()=> openTableModal()}>
+     
+      <tr className="tr" id="tr1">
         <td data-title='ID'>
           6
         </td>
@@ -574,13 +595,13 @@ return(
           1 600 000 so’m
         </td>
         <td className='select'>
-          <button className='button'>
+          <button className='button button1'>
             Buyurtma berish
           </button>
         </td>
         <td>
-          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
-            UnCompleted
+          <span onClick={()=> openTableModal()} className="buyurtma-completed">
+            Completed
           </span>
         </td>
       </tr>

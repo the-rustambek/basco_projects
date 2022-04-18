@@ -15,7 +15,7 @@ const AktTable = () => {
         </thead>
 
         <tbody className="tbody">
-          <tr>
+          <tr id="tr-table">
             <td data-title="ID"></td>
             <td data-title="Sana">
               <b>01.01.22</b>

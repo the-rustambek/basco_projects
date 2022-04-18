@@ -392,3 +392,31 @@
     /* background-color: red; */
     height: 45px;
   }
+
+  .akt-main table thead tr{
+    position: sticky;
+    top: 0;
+    /* width: 100%;
+    left: 0; */
+    height: 35px !important;
+    width: 100%;
+    background-color: 
+    black;
+    padding:
+    10px;
+    
+}
+.akt-main table thead tr td{
+  background-color: black;
+  border: 2px solid black;
+}
+html body .container .akt-main table tbody #tr-table:nth-child(1){
+  position: sticky;
+  padding: 10px;
+  top: 9%;
+  height: 30px !important;
+  /* width: 100%;
+  left: 0; */
+  width: 100%;
+}
+  
