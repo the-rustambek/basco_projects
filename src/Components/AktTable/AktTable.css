@@ -107,8 +107,8 @@
   }
   
   main {
-    height: 80vh;
-    overflow-y: scroll;
+    height: 40vh;
+    /* overflow-y: scroll; */
   }
   .sumColum {
     width: 50%;
@@ -348,11 +348,7 @@
       display: none;
     }
   
-    body .main td,
-    body .main th {
-      padding: 6px;
-      text-align: center;
-    }
+     
   
     tfoot th {
       display: table-cell;
@@ -382,4 +378,17 @@
   
   .akt-main {
     margin-top: 30px;
+    height: 65vh;
+  }
+
+
+  body .akt-main table thead{
+    background-color: black;
+  }
+  body .akt-main table td,
+  body .akt-main table th {
+    padding: 6px;
+    text-align: center;
+    /* background-color: red; */
+    height: 45px;
   }

@@ -24,6 +24,7 @@ tbody {
 
 tr {
     padding-bottom: 10px;
+    
     color: white;
 
 
@@ -93,6 +94,7 @@ tbody {
 tr {
     background-color: white;
 }
+
 
 td {
     color: black;
@@ -286,6 +288,7 @@ input:checked+.slider:before {
     tr {
         display: table-row;
     }
+    
 
     button {
         padding: 2px 4px;
@@ -370,6 +373,7 @@ input:checked+.slider:before {
     tr {
         display: table-row;
     }
+    
 
     main table tbody .select button {
         padding: 4px 3px;
@@ -507,6 +511,7 @@ input:checked+.slider:before {
     tr {
         display: table-row;
     }
+    
 
     body .main td,
     body .main th {
@@ -585,6 +590,7 @@ input:checked+.slider:before {
     tr {
         display: table-row;
     }
+    
 
     body .main td,
     body .main th {
@@ -661,6 +667,7 @@ input:checked+.slider:before {
     tr {
         display: table-row;
     }
+    
 
     body .main td,
     body .main th {
@@ -688,6 +695,7 @@ input:checked+.slider:before {
     body .main td,
     body .main th {
         padding: 6px;
+        height: 40.5px;
         text-align: center;
     }
 
@@ -781,7 +789,6 @@ input:checked+.slider:before {
 }
 
 
-
 }
 
 
@@ -814,3 +821,93 @@ input:checked+.slider:before {
     justify-content: center;
     align-items: center;
 }
+
+
+
+body .indicator {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    top: 16%;
+    left: 96.2%;
+    z-index: 11;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+body .indicator span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 6px solid #fff;
+    border-right: 6px solid #fff;
+    animation: animate 1s linear infinite;
+}
+
+body .indicator span:nth-child(1) {
+    top: -30px;
+    left: -30px;
+    animation-delay: 0s;
+}
+
+body .indicator span:nth-child(2) {
+    top: -15px;
+    left: -15px;
+    animation-delay: 0.2s;
+}
+
+body .indicator span:nth-child(3) {
+    top: 0;
+    left: 0;
+    animation-delay: 0.4s;
+}
+
+body .indicator span:nth-child(4) {
+    top: 15px;
+    left: 15px;
+    animation-delay: 0.6s;
+}
+
+body .indicator span:nth-child(5) {
+    top: 30px;
+    left: 30px;
+    animation-delay: 0.8s;
+}
+
+@keyframes animate {
+    0% {
+        border-color: #fff;
+        transform: translate(0, 0);
+    }
+    20% {
+        border-color: #fff;
+        transform: translate(15px, 15px);
+    }
+    20.1%,
+    100% {
+        border-color: #ffd64a;
+    }
+}
+
+
+body .buyurtmalar-main table .tbody tr:hover{
+    box-shadow: 10px 10px 5px black;
+    cursor: pointer;
+    background-color: red;
+}
+
+
+
+
+
+    /* body .app .container .buyurtmalar-main table tbody tr{
+        box-shadow: 10px 10px 5px black;
+        cursor: pointer;
+        background-color: rgb(221, 0, 255);
+        color: red;
+    } */

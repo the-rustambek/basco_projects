@@ -40,6 +40,49 @@ const AktTable = () => {
             <td data-title="izoh">Lux soft memory</td>
             <td data-title="Kirim">1 600 000 so’m</td>
             <td data-title="Chiqim">3 200 000 so’m</td>
+          </tr> <tr>
+            <td data-title="ID">6</td>
+            <td data-title="Sana">12:13-12.05.2021</td>
+            <td data-title="izoh">Lux soft memory</td>
+            <td data-title="Kirim">1 600 000 so’m</td>
+            <td data-title="Chiqim">3 200 000 so’m</td>
+          </tr> <tr>
+            <td data-title="ID">6</td>
+            <td data-title="Sana">12:13-12.05.2021</td>
+            <td data-title="izoh">Lux soft memory</td>
+            <td data-title="Kirim">1 600 000 so’m</td>
+            <td data-title="Chiqim">3 200 000 so’m</td>
+          </tr> <tr>
+            <td data-title="ID">6</td>
+            <td data-title="Sana">12:13-12.05.2021</td>
+            <td data-title="izoh">Lux soft memory</td>
+            <td data-title="Kirim">1 600 000 so’m</td>
+            <td data-title="Chiqim">3 200 000 so’m</td>
+          </tr> <tr>
+            <td data-title="ID">6</td>
+            <td data-title="Sana">12:13-12.05.2021</td>
+            <td data-title="izoh">Lux soft memory</td>
+            <td data-title="Kirim">1 600 000 so’m</td>
+            <td data-title="Chiqim">3 200 000 so’m</td>
+          </tr> <tr>
+            <td data-title="ID">6</td>
+            <td data-title="Sana">12:13-12.05.2021</td>
+            <td data-title="izoh">Lux soft memory</td>
+            <td data-title="Kirim">1 600 000 so’m</td>
+            <td data-title="Chiqim">3 200 000 so’m</td>
+          </tr> <tr>
+            <td data-title="ID">6</td>
+            <td data-title="Sana">12:13-12.05.2021</td>
+            <td data-title="izoh">Lux soft memory</td>
+            <td data-title="Kirim">1 600 000 so’m</td>
+            <td data-title="Chiqim">3 200 000 so’m</td>
+          </tr>
+          <tr>
+            <td data-title="ID">6</td>
+            <td data-title="Sana">12:13-12.05.2021</td>
+            <td data-title="izoh">Lux soft memory</td>
+            <td data-title="Kirim">1 600 000 so’m</td>
+            <td data-title="Chiqim">3 200 000 so’m</td>
           </tr>
           <tr>
             <td data-title="ID">6</td>
