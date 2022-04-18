@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Modal from "../Modal/Modal";
 import "./Table.css";
-
+import Arrow from "../../Assets/Img/Arrow.png";
 const Table = () =>{
 
 const [tableModal,setTableModal] = useState(false)
@@ -12,8 +12,13 @@ setTableModal(!tableModal);
 
 return(
 <main className="buyurtmalar-main">
+  
   <table>
+  <a href="#" id="scrollBtn" className="scroll-btn" >
+        <img src={Arrow} alt="" className="scroll-icon" />
+      </a>
     <thead>
+      
       <tr>
         <th>
           ID
@@ -35,7 +40,8 @@ return(
     </thead>
 
     <tbody className="tbody">
-      <tr onClick={()=> openTableModal()}>
+      
+      <tr >
         <td data-title='ID'>
           6
         </td>
@@ -54,7 +60,7 @@ return(
           </button>
         </td>
         <td>
-          <span className="buyurtma-completed">
+          <span onClick={()=> openTableModal()} className="buyurtma-completed">
             Completed
           </span>
         </td>
@@ -78,7 +84,470 @@ return(
           </button>
         </td>
         <td>
-          <span className=" buyurtma-uncompleted">
+          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
+            UnCompleted
+          </span>
+        </td>
+      </tr>
+
+      <tr onClick={()=> openTableModal()}>
+        <td data-title='ID'>
+          6
+        </td>
+        <td data-title='Sana'>
+          12:13-12.05.2021
+        </td>
+        <td data-title='Tovarlar Soni'>
+          10
+        </td>
+        <td data-title='Jami Summa'>
+          1 600 000 so’m
+        </td>
+        <td className='select'>
+          <button className='button'>
+            Buyurtma berish
+          </button>
+        </td>
+        <td>
+          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
+            UnCompleted
+          </span>
+        </td>
+      </tr><tr onClick={()=> openTableModal()}>
+        <td data-title='ID'>
+          6
+        </td>
+        <td data-title='Sana'>
+          12:13-12.05.2021
+        </td>
+        <td data-title='Tovarlar Soni'>
+          10
+        </td>
+        <td data-title='Jami Summa'>
+          1 600 000 so’m
+        </td>
+        <td className='select'>
+          <button className='button'>
+            Buyurtma berish
+          </button>
+        </td>
+        <td>
+          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
+            UnCompleted
+          </span>
+        </td>
+      </tr><tr onClick={()=> openTableModal()}>
+        <td data-title='ID'>
+          6
+        </td>
+        <td data-title='Sana'>
+          12:13-12.05.2021
+        </td>
+        <td data-title='Tovarlar Soni'>
+          10
+        </td>
+        <td data-title='Jami Summa'>
+          1 600 000 so’m
+        </td>
+        <td className='select'>
+          <button className='button'>
+            Buyurtma berish
+          </button>
+        </td>
+        <td>
+          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
+            UnCompleted
+          </span>
+        </td>
+      </tr><tr onClick={()=> openTableModal()}>
+        <td data-title='ID'>
+          6
+        </td>
+        <td data-title='Sana'>
+          12:13-12.05.2021
+        </td>
+        <td data-title='Tovarlar Soni'>
+          10
+        </td>
+        <td data-title='Jami Summa'>
+          1 600 000 so’m
+        </td>
+        <td className='select'>
+          <button className='button'>
+            Buyurtma berish
+          </button>
+        </td>
+        <td>
+          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
+            UnCompleted
+          </span>
+        </td>
+      </tr><tr onClick={()=> openTableModal()}>
+        <td data-title='ID'>
+          6
+        </td>
+        <td data-title='Sana'>
+          12:13-12.05.2021
+        </td>
+        <td data-title='Tovarlar Soni'>
+          10
+        </td>
+        <td data-title='Jami Summa'>
+          1 600 000 so’m
+        </td>
+        <td className='select'>
+          <button className='button'>
+            Buyurtma berish
+          </button>
+        </td>
+        <td>
+          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
+            UnCompleted
+          </span>
+        </td>
+      </tr><tr onClick={()=> openTableModal()}>
+        <td data-title='ID'>
+          6
+        </td>
+        <td data-title='Sana'>
+          12:13-12.05.2021
+        </td>
+        <td data-title='Tovarlar Soni'>
+          10
+        </td>
+        <td data-title='Jami Summa'>
+          1 600 000 so’m
+        </td>
+        <td className='select'>
+          <button className='button'>
+            Buyurtma berish
+          </button>
+        </td>
+        <td>
+          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
+            UnCompleted
+          </span>
+        </td>
+      </tr><tr onClick={()=> openTableModal()}>
+        <td data-title='ID'>
+          6
+        </td>
+        <td data-title='Sana'>
+          12:13-12.05.2021
+        </td>
+        <td data-title='Tovarlar Soni'>
+          10
+        </td>
+        <td data-title='Jami Summa'>
+          1 600 000 so’m
+        </td>
+        <td className='select'>
+          <button className='button'>
+            Buyurtma berish
+          </button>
+        </td>
+        <td>
+          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
+            UnCompleted
+          </span>
+        </td>
+      </tr><tr onClick={()=> openTableModal()}>
+        <td data-title='ID'>
+          6
+        </td>
+        <td data-title='Sana'>
+          12:13-12.05.2021
+        </td>
+        <td data-title='Tovarlar Soni'>
+          10
+        </td>
+        <td data-title='Jami Summa'>
+          1 600 000 so’m
+        </td>
+        <td className='select'>
+          <button className='button'>
+            Buyurtma berish
+          </button>
+        </td>
+        <td>
+          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
+            UnCompleted
+          </span>
+        </td>
+      </tr>
+      <tr onClick={()=> openTableModal()}>
+        <td data-title='ID'>
+          6
+        </td>
+        <td data-title='Sana'>
+          12:13-12.05.2021
+        </td>
+        <td data-title='Tovarlar Soni'>
+          10
+        </td>
+        <td data-title='Jami Summa'>
+          1 600 000 so’m
+        </td>
+        <td className='select'>
+          <button className='button'>
+            Buyurtma berish
+          </button>
+        </td>
+        <td>
+          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
+            UnCompleted
+          </span>
+        </td>
+      </tr><tr onClick={()=> openTableModal()}>
+        <td data-title='ID'>
+          6
+        </td>
+        <td data-title='Sana'>
+          12:13-12.05.2021
+        </td>
+        <td data-title='Tovarlar Soni'>
+          10
+        </td>
+        <td data-title='Jami Summa'>
+          1 600 000 so’m
+        </td>
+        <td className='select'>
+          <button className='button'>
+            Buyurtma berish
+          </button>
+        </td>
+        <td>
+          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
+            UnCompleted
+          </span>
+        </td>
+      </tr><tr onClick={()=> openTableModal()}>
+        <td data-title='ID'>
+          6
+        </td>
+        <td data-title='Sana'>
+          12:13-12.05.2021
+        </td>
+        <td data-title='Tovarlar Soni'>
+          10
+        </td>
+        <td data-title='Jami Summa'>
+          1 600 000 so’m
+        </td>
+        <td className='select'>
+          <button className='button'>
+            Buyurtma berish
+          </button>
+        </td>
+        <td>
+          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
+            UnCompleted
+          </span>
+        </td>
+      </tr><tr onClick={()=> openTableModal()}>
+        <td data-title='ID'>
+          6
+        </td>
+        <td data-title='Sana'>
+          12:13-12.05.2021
+        </td>
+        <td data-title='Tovarlar Soni'>
+          10
+        </td>
+        <td data-title='Jami Summa'>
+          1 600 000 so’m
+        </td>
+        <td className='select'>
+          <button className='button'>
+            Buyurtma berish
+          </button>
+        </td>
+        <td>
+          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
+            UnCompleted
+          </span>
+        </td>
+      </tr><tr onClick={()=> openTableModal()}>
+        <td data-title='ID'>
+          6
+        </td>
+        <td data-title='Sana'>
+          12:13-12.05.2021
+        </td>
+        <td data-title='Tovarlar Soni'>
+          10
+        </td>
+        <td data-title='Jami Summa'>
+          1 600 000 so’m
+        </td>
+        <td className='select'>
+          <button className='button'>
+            Buyurtma berish
+          </button>
+        </td>
+        <td>
+          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
+            UnCompleted
+          </span>
+        </td>
+      </tr><tr onClick={()=> openTableModal()}>
+        <td data-title='ID'>
+          6
+        </td>
+        <td data-title='Sana'>
+          12:13-12.05.2021
+        </td>
+        <td data-title='Tovarlar Soni'>
+          10
+        </td>
+        <td data-title='Jami Summa'>
+          1 600 000 so’m
+        </td>
+        <td className='select'>
+          <button className='button'>
+            Buyurtma berish
+          </button>
+        </td>
+        <td>
+          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
+            UnCompleted
+          </span>
+        </td>
+      </tr><tr onClick={()=> openTableModal()}>
+        <td data-title='ID'>
+          6
+        </td>
+        <td data-title='Sana'>
+          12:13-12.05.2021
+        </td>
+        <td data-title='Tovarlar Soni'>
+          10
+        </td>
+        <td data-title='Jami Summa'>
+          1 600 000 so’m
+        </td>
+        <td className='select'>
+          <button className='button'>
+            Buyurtma berish
+          </button>
+        </td>
+        <td>
+          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
+            UnCompleted
+          </span>
+        </td>
+      </tr><tr onClick={()=> openTableModal()}>
+        <td data-title='ID'>
+          6
+        </td>
+        <td data-title='Sana'>
+          12:13-12.05.2021
+        </td>
+        <td data-title='Tovarlar Soni'>
+          10
+        </td>
+        <td data-title='Jami Summa'>
+          1 600 000 so’m
+        </td>
+        <td className='select'>
+          <button className='button'>
+            Buyurtma berish
+          </button>
+        </td>
+        <td>
+          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
+            UnCompleted
+          </span>
+        </td>
+      </tr><tr onClick={()=> openTableModal()}>
+        <td data-title='ID'>
+          6
+        </td>
+        <td data-title='Sana'>
+          12:13-12.05.2021
+        </td>
+        <td data-title='Tovarlar Soni'>
+          10
+        </td>
+        <td data-title='Jami Summa'>
+          1 600 000 so’m
+        </td>
+        <td className='select'>
+          <button className='button'>
+            Buyurtma berish
+          </button>
+        </td>
+        <td>
+          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
+            UnCompleted
+          </span>
+        </td>
+      </tr><tr onClick={()=> openTableModal()}>
+        <td data-title='ID'>
+          6
+        </td>
+        <td data-title='Sana'>
+          12:13-12.05.2021
+        </td>
+        <td data-title='Tovarlar Soni'>
+          10
+        </td>
+        <td data-title='Jami Summa'>
+          1 600 000 so’m
+        </td>
+        <td className='select'>
+          <button className='button'>
+            Buyurtma berish
+          </button>
+        </td>
+        <td>
+          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
+            UnCompleted
+          </span>
+        </td>
+      </tr><tr onClick={()=> openTableModal()}>
+        <td data-title='ID'>
+          6
+        </td>
+        <td data-title='Sana'>
+          12:13-12.05.2021
+        </td>
+        <td data-title='Tovarlar Soni'>
+          10
+        </td>
+        <td data-title='Jami Summa'>
+          1 600 000 so’m
+        </td>
+        <td className='select'>
+          <button className='button'>
+            Buyurtma berish
+          </button>
+        </td>
+        <td>
+          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
+            UnCompleted
+          </span>
+        </td>
+      </tr><tr onClick={()=> openTableModal()}>
+        <td data-title='ID'>
+          6
+        </td>
+        <td data-title='Sana'>
+          12:13-12.05.2021
+        </td>
+        <td data-title='Tovarlar Soni'>
+          10
+        </td>
+        <td data-title='Jami Summa'>
+          1 600 000 so’m
+        </td>
+        <td className='select'>
+          <button className='button'>
+            Buyurtma berish
+          </button>
+        </td>
+        <td>
+          <span onClick={()=> openTableModal()} className=" buyurtma-uncompleted">
             UnCompleted
           </span>
         </td>
@@ -91,19 +560,20 @@ return(
       &times;
     </button>
     <ul className="modalTable-list">
+      
     <li className="modalTable-item">
         <h2 className="modalTable-title">
-          Mevalar
+          Mahsulot turi
         </h2>
         <p className="modalTable-text">
-          Olchalar
+          Tovar nomi
         </p>
-        <p className="modalTable-olchov">105 Kg</p>
+        <p className="modalTable-olchov">Ostatka</p>
         <p className="modalTable-cost">
-          1 600 000 so’m
+          Narxi
         </p>
         <p className="modalTable-count">
-          3
+          Soni
         </p>
       </li>
       <li className="modalTable-item">

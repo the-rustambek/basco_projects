@@ -97,7 +97,7 @@ tr {
 td {
     color: black;
     border: none;
-    cursor: pointer;
+    
     background-color: white;
 }
 
@@ -133,7 +133,13 @@ main {
     left: 0; */
     width: 100%;
 }
-
+td .buyurtma-completed:hover, td .buyurtma-uncompleted:hover{
+    cursor: pointer;
+    transform: scale(0.2);
+    background-color: black;
+    /* font-size: 12px; */
+    font-weight: 300;
+}
 .buyurtma-completed{
     background-color: rgb(137, 213, 147);
     padding: 3px 21px;
@@ -248,7 +254,30 @@ input:checked+.slider:before {
     left: 100%;
 }
 
-
+.modalTable-item:nth-child(1){
+    background-color: black;
+    color: white;
+    /* position: sticky; */
+    position: fixed;
+    top: 30.5%;
+    /* width: 100%;
+    left: 0; */
+    width: 49.5%;
+    /* text-align: start; */
+}
+ .modalTable-item:nth-child(1) p{
+    width: 20%;
+    padding-left: 50px;
+}
+.modalTable-item:nth-child(1) p:nth-child(5){
+    width: 20%;
+    padding-left: 105px;
+    
+}
+.modalTable-item:nth-child(1) p:nth-child(2){
+    width: 20%;
+    padding-left: 40px;
+}
 @media (min-width: 280px) {
     table {
         display: table;
@@ -763,4 +792,25 @@ input:checked+.slider:before {
     /* width: 100%;
     left: 0; */
     width: 100%;
+}
+
+.scroll-icon{
+    width: 20px;
+    height: 20px;
+    
+}
+.scroll-btn{
+    position:fixed;
+    top: 21.4%;
+    z-index:1;
+    left: 95.5%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 10px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
