@@ -6,11 +6,11 @@ const AktTable = () => {
       <table>
         <thead>
           <tr>
-            <th>ID</th>
-            <th>Sana</th>
-            <th>Izoh</th>
-            <th>Kirim</th>
-            <th>Chiqim</th>
+            <th>ИД</th>
+            <th>Сана</th>
+            <th>Изоҳ</th>
+            <th>Кирим</th>
+            <th>Чиқим</th>
           </tr>
         </thead>
 
@@ -21,7 +21,7 @@ const AktTable = () => {
               <b>01.01.22</b>
             </td>
             <td data-title="izoh">
-              <b>Kun boshiga qoldiq</b>
+              <b>Кун бошига қолдиқ</b>
             </td>
             <td data-title="Kirim" colSpan="2">
               <b>300.000.000</b>
@@ -114,13 +114,13 @@ const AktTable = () => {
           </tr>
           <tr>
             <td data-title="izoh" colSpan="3">
-              <b>JAMI</b>
+              <b>ЖАМИ</b>
             </td>
             <td data-title="Kirim">
-              <b>16, 000, 000 so’m</b>
+              <b>16 000 000 so’m</b>
             </td>
             <td data-title="Chiqim">
-              <b>72,000 000 so’m</b>
+              <b>72 000 000 so’m</b>
             </td>
           </tr>
           <tr>
@@ -129,10 +129,10 @@ const AktTable = () => {
               <b>01.04.22</b>
             </td>
             <td data-title="Kirim">
-              <b>Kun oxirgi qoldiq</b>
+              <b>Кун охирги қолдиқ</b>
             </td>
             <td data-title="Chiqim" colSpan="2">
-              <b>243,400,000</b>
+              <b>243 400 000</b>
             </td>
           </tr>
         </tbody>

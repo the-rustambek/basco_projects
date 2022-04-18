@@ -39,26 +39,26 @@ return(
         <li className="sidebar-item">
             <Link onClick={handleAddClass} to="/buyurtmalar" className="sidebar-link sidebar-active">
             <img src={buyurtma} alt="buyurtma" className="sidebar-icon" />
-            <p className="sidebar-title">Buyurtmalar</p>
+            <p className="sidebar-title">Буюртмалар</p>
             </Link>
         </li>
         <li className="sidebar-item">
             <Link onClick={handleAddClass} to="/akt" className="sidebar-link">
             <FaRegCalendarAlt />
-            <p className="sidebar-title">Akt Sverka</p>
+            <p className="sidebar-title">Акт Сверка</p>
             </Link>
         </li>
         <li className="sidebar-item">
             <Link onClick={handleAddClass} to="/zakaz" className="sidebar-link">
             {/* <img src={menu} alt="zakaz" className="sidebar-icon" /> */}
             <IoMdReorder className="zakaz-icon" />
-            <p className="sidebar-title">Zakaz berish</p>
+            <p className="sidebar-title">Заказ бериш</p>
             </Link>
         </li>
         <li className="sidebar-item">
             <Link onClick={handleAddClass} to="/mahsulotlar" className="sidebar-link">
             <img src={mahsulot} alt="mahsulot" className="sidebar-icon" />
-            <p className="sidebar-title">Mahsulotlar</p>
+            <p className="sidebar-title">Маҳсулотлар</p>
             </Link>
         </li>
     </ul>
