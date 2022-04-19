@@ -28,8 +28,7 @@ return(
 <main className="buyurtmalar-main">
   <div className='indicator' onClick={handleButtonClick}>
     <span></span>
-    <span></span>
-    <span></span>
+  
   </div>
   <table>
     <thead>
