@@ -205,7 +205,6 @@ transition: 0.3s;
   .account-btn span {
     position: relative; 
     z-index: 1;
-    /* z-index: 999999999999999999999999999999999999999999999999999999999999999999999999; */
   }
   
   .account-btn:after {
