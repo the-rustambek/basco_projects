@@ -67,7 +67,7 @@ return(
           1 600 000 сўм
         </td>
         <td className='select'>
-          <button className='button button1'>
+          <button className='buttoncha button1'>
             <span>
             Буюртма бериш
           </span></button>
@@ -95,7 +95,7 @@ return(
           1 600 000 сўм
         </td>
         <td className='select'>
-          <button className='button button1'>
+          <button className='buttoncha button1'>
             <span>
             Буюртма бериш
           </span></button>
@@ -122,7 +122,7 @@ return(
           1 600 000 сўм
         </td>
         <td className='select'>
-          <button className='button button1'>
+          <button className='buttoncha button1'>
             <span>
             Буюртма бериш
           </span></button>
@@ -150,7 +150,7 @@ return(
           1 600 000 сўм
         </td>
         <td className='select'>
-          <button className='button button1'>
+          <button className='buttoncha button1'>
             <span>
             Буюртма бериш
           </span></button>
@@ -177,7 +177,7 @@ return(
           1 600 000 сўм
         </td>
         <td className='select'>
-          <button className='button button1'>
+          <button className='buttoncha button1'>
             <span>
             Буюртма бериш
           </span></button>
@@ -205,61 +205,7 @@ return(
           1 600 000 сўм
         </td>
         <td className='select'>
-          <button className='button button1'>
-            <span>
-            Буюртма бериш
-          </span></button>
-        </td>
-        <td>
-        <button className="table-uncompleted--btn">
-          <span onClick={()=> openTableModal()} className="buyurtma-uncompleted">
-            UnCompleted
-          </span>
-          </button>
-        </td>
-      </tr><tr className="tr" id="tr1">
-        <td data-title='ID'>
-          6
-        </td>
-        <td data-title='Sana'>
-          12:13-12.05.2021
-        </td>
-        <td data-title='Tovarlar Soni'>
-          10
-        </td>
-        <td data-title='Jami Summa'>
-          1 600 000 сўм
-        </td>
-        <td className='select'>
-          <button className='button button1'>
-            <span>
-            Буюртма бериш
-          </span></button>
-        </td>
-        <td>
-          <button className="table-completed--btn">
-          <span onClick={()=> openTableModal()} className="buyurtma-completed">
-            Completed
-          </span>
-          </button>
-          
-        </td>
-      </tr>
-      <tr className="tr" id="tr1">
-        <td data-title='ID'>
-          6
-        </td>
-        <td data-title='Sana'>
-          12:13-12.05.2021
-        </td>
-        <td data-title='Tovarlar Soni'>
-          10
-        </td>
-        <td data-title='Jami Summa'>
-          1 600 000 сўм
-        </td>
-        <td className='select'>
-          <button className='button button1'>
+          <button className='buttoncha button1'>
             <span>
             Буюртма бериш
           </span></button>
@@ -285,7 +231,7 @@ return(
           1 600 000 сўм
         </td>
         <td className='select'>
-          <button className='button button1'>
+          <button className='buttoncha button1'>
             <span>
             Буюртма бериш
           </span></button>
@@ -313,7 +259,7 @@ return(
           1 600 000 сўм
         </td>
         <td className='select'>
-          <button className='button button1'>
+          <button className='buttoncha button1'>
             <span>
             Буюртма бериш
           </span></button>
@@ -339,7 +285,7 @@ return(
           1 600 000 сўм
         </td>
         <td className='select'>
-          <button className='button button1'>
+          <button className='buttoncha button1'>
             <span>
             Буюртма бериш
           </span></button>
@@ -367,7 +313,7 @@ return(
           1 600 000 сўм
         </td>
         <td className='select'>
-          <button className='button button1'>
+          <button className='buttoncha button1'>
             <span>
             Буюртма бериш
           </span></button>
@@ -393,7 +339,7 @@ return(
           1 600 000 сўм
         </td>
         <td className='select'>
-          <button className='button button1'>
+          <button className='buttoncha button1'>
             <span>
             Буюртма бериш
           </span></button>
@@ -421,7 +367,7 @@ return(
           1 600 000 сўм
         </td>
         <td className='select'>
-          <button className='button button1'>
+          <button className='buttoncha button1'>
             <span>
             Буюртма бериш
           </span></button>
@@ -447,7 +393,7 @@ return(
           1 600 000 сўм
         </td>
         <td className='select'>
-          <button className='button button1'>
+          <button className='buttoncha button1'>
             <span>
             Буюртма бериш
           </span></button>
@@ -475,7 +421,61 @@ return(
           1 600 000 сўм
         </td>
         <td className='select'>
-          <button className='button button1'>
+          <button className='buttoncha button1'>
+            <span>
+            Буюртма бериш
+          </span></button>
+        </td>
+        <td>
+        <button className="table-uncompleted--btn">
+          <span onClick={()=> openTableModal()} className="buyurtma-uncompleted">
+            UnCompleted
+          </span>
+          </button>
+        </td>
+      </tr><tr className="tr" id="tr1">
+        <td data-title='ID'>
+          6
+        </td>
+        <td data-title='Sana'>
+          12:13-12.05.2021
+        </td>
+        <td data-title='Tovarlar Soni'>
+          10
+        </td>
+        <td data-title='Jami Summa'>
+          1 600 000 сўм
+        </td>
+        <td className='select'>
+          <button className='buttoncha button1'>
+            <span>
+            Буюртма бериш
+          </span></button>
+        </td>
+        <td>
+          <button className="table-completed--btn">
+          <span onClick={()=> openTableModal()} className="buyurtma-completed">
+            Completed
+          </span>
+          </button>
+          
+        </td>
+      </tr>
+      <tr className="tr" id="tr1">
+        <td data-title='ID'>
+          6
+        </td>
+        <td data-title='Sana'>
+          12:13-12.05.2021
+        </td>
+        <td data-title='Tovarlar Soni'>
+          10
+        </td>
+        <td data-title='Jami Summa'>
+          1 600 000 сўм
+        </td>
+        <td className='select'>
+          <button className='buttoncha button1'>
             <span>
             Буюртма бериш
           </span></button>

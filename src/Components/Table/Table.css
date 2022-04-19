@@ -471,7 +471,7 @@ input:checked+.slider:before {
 
     }
 
-    body .main .select button {
+    body .main .select .buttoncha {
         padding:  1px;
         font-weight: 100;
         font-size: 9px;
@@ -610,7 +610,7 @@ input:checked+.slider:before {
         display: table-cell;
     }
 
-    body .main .select button {
+    body .main .select .buttoncha {
         padding: 5px;
     }
 
@@ -679,7 +679,7 @@ input:checked+.slider:before {
     }
 
 
-    body .main .select button {
+    body .main .select .buttoncha {
         padding: 5px 8px;
 
     }
@@ -720,7 +720,7 @@ input:checked+.slider:before {
         display: table;
     }
 
-    body .main .select button {
+    body .main .select .buttoncha {
         padding: 12px;
     }
 
@@ -769,7 +769,7 @@ input:checked+.slider:before {
         padding: 10px;
     }
 
-    body .main .select button {
+    body .main .select .buttoncha {
 
         line-height: 1;
         display: inline-block;
@@ -797,7 +797,7 @@ input:checked+.slider:before {
         display: table;
     }
 
-    body .main .select button {
+    body .main .select .buttoncha {
         padding: 12px;
     }
 
@@ -846,7 +846,7 @@ input:checked+.slider:before {
         padding: 10px;
     }
 
-    body .main .select button {
+    body .main .select .buttoncha {
 
         line-height: 1;
         display: inline-block;
@@ -855,7 +855,8 @@ input:checked+.slider:before {
         border-radius: 5px;
         color: #fff;
         padding: 8px 25px;
-        background: #D2BA6C;
+        background: linear-gradient(90deg,#e0b942 0,#000);
+    
         border-radius: 3px;
         border: none;
         font-style: normal;
@@ -866,7 +867,7 @@ input:checked+.slider:before {
 
     
 
-body .main .select button {
+body .main .select .buttoncha {
     line-height: 1;
     display: inline-block;
     font-size: 1.2rem;
@@ -874,7 +875,7 @@ body .main .select button {
     border-radius: 5px;
     color: #fff;
     padding: 8px 20px;
-    background: #D2BA6C;
+    background: linear-gradient(90deg,#e0b942 0,#000);
     border-radius: 3px;
     border: none;
     font-style: normal;
@@ -885,9 +886,9 @@ body .main .select button {
     cursor: pointer;
 }
 
-body .main .select button{
+body .main .select .buttoncha{
     width: 75.5%;
-      background-color: rgb(207, 160, 4);
+    background: linear-gradient(90deg,#e0b942 0,#000);
       color: #fff;
       outline: none;
       border: none;
@@ -908,14 +909,14 @@ body .main .select button{
     box-shadow: 0 5px 15px rgba(0,0,0,0.20);
   }
   
-  body .main .select button span {
+  body .main .select .buttoncha span {
     position: relative; 
     z-index: 1;
     font-size: 15px;
     font-weight: 500;
   }
   
-  body .main .select button:after {
+  body .main .select .buttoncha:after {
     content: "";
     position: absolute;
     left: 0;
@@ -928,7 +929,7 @@ body .main .select button{
     transform: translateX(-80%) translateY(-25%) rotate(45deg);
   }
   
-  body .main .select button:hover:after {
+  body .main .select .buttoncha:hover:after {
     transform: translateX(0%) translateY(-25%) ;
   }
   

@@ -147,9 +147,7 @@ cursor: pointer;
 }
 
 @media(max-width:420px){
-    .zakaz-left{
-        /* flex-direction: column; */
-    }
+    
   .zakazHeader-avatar{
       padding: 8px;
       width: 35px;
