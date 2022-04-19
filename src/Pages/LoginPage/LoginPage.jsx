@@ -17,7 +17,8 @@ function Login(props) {
           <img src={logo} alt="" />
         </div>
         <div className="signBtn">
-          <button onClick={changeBtn}>{sign ? "Sign Up" : "Log In"}</button>
+          <button onClick={changeBtn}>
+            <span>{sign ? "Sign Up" : "Log In"}</span></button>
         </div>
       </div>
       {sign ? (

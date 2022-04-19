@@ -24,7 +24,7 @@
     padding: 0 4rem;
   }
   .loginHead button {
-    background-color: rgb(207, 160, 4);
+    /* background-color: rgb(207, 160, 4); */
     border: none;
     color: #191a1e;
     font-size: 2rem;
@@ -36,8 +36,8 @@
     outline: none;
   }
   .loginHead button:hover {
-    color: rgb(207, 160, 4);
-    background-color: #fff;
+    /* color: rgb(207, 160, 4); */
+    /* background-color: #fff; */
   }
   .form {
     display: flex;
@@ -109,8 +109,7 @@
   background-color: #222;
   padding: 17px 60px;
   margin: 0 auto;
-  background: linear-gradient(90deg,#e0b942 0,#000);
-    
+ background-color: black;   
   box-shadow: 0 5px 15px rgba(0,0,0,0.20);
 }
 
@@ -126,7 +125,8 @@
   top: 0;
   height: 490%;
   width: 140%;
-  background-color: black;
+  background: linear-gradient(90deg,#e0b942 0,#000);
+ 
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
   transform: translateX(-80%) translateY(-25%) rotate(45deg);
@@ -137,4 +137,52 @@
 }
 
  
+
+
  
+.signBtn button {
+  width: 100%;
+    /* background-color: rgb(207, 160, 4); */
+    color: #fff;
+    outline: none;
+    border: none;
+  border: none;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: #222;
+  padding: 17px 60px;
+  margin: 0 auto;
+ background-color: black;   
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+
+.signBtn button span {
+  position: relative; 
+  z-index: 1;
+}
+
+.signBtn button:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 490%;
+  width: 300%;
+  background: linear-gradient(90deg,#e0b942 0,#000);
+ 
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  transform: translateX(-80%) translateY(-25%) rotate(45deg);
+}
+
+.signBtn button:hover:after {
+  transform: translateX(0%) translateY(-25%) ;
+}
