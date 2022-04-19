@@ -184,5 +184,9 @@ cursor: pointer;
 .account-btns{
     font-size: 14px;
     padding: 3px 0;
-    margin: 10px 0;
+    margin: 11px 0;
+}
+
+.account-inputs{
+    width: 330px;
 }

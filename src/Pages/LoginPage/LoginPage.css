@@ -154,19 +154,21 @@
   outline: none;
   overflow: hidden;
   position: relative;
-  color: #fff;
+  color: #e0b942;
   font-weight: 700;
   font-size: 15px;
   background-color: #222;
   padding: 17px 60px;
   margin: 0 auto;
- background-color: black;   
+ background-color: white; 
+ border: 2px solid #e0b942;  
   box-shadow: 0 5px 15px rgba(0,0,0,0.20);
 }
 
 .signBtn button span {
   position: relative; 
   z-index: 1;
+  /* color: white; */
 }
 
 .signBtn button:after {
@@ -175,14 +177,17 @@
   left: 0;
   top: 0;
   height: 490%;
-  width: 300%;
-  background: linear-gradient(90deg,#e0b942 0,#000);
- 
-  -webkit-transition: all .5s ease-in-out;
+  width: 320%;
+  background-color: black;
+  border: 2px solid black;
+ color:white;
+  
   transition: all .5s ease-in-out;
   transform: translateX(-80%) translateY(-25%) rotate(45deg);
 }
 
 .signBtn button:hover:after {
+  color: white;
+  border: 2px solid #e0b942;
   transform: translateX(0%) translateY(-25%) ;
 }

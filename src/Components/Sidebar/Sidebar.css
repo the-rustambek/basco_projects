@@ -21,7 +21,7 @@
     
 }
 .sidebar-link:hover , .sidebar-active{
-    background-color: #D2BA6C;
+    background: linear-gradient(90deg,#e0b942 0,#000);
     border: 2px solid black;
 }
 
