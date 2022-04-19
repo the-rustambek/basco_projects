@@ -1,6 +1,6 @@
 import ZakazHeader from "../../Components/ZakazHeader/ZakazHeader";
 import ZakazTable from "../../Components/ZakazTable/ZakazTable";
-
+import "../../Components/ZakazTable/ZakazTable.css"
 
 const ZakazPage = () =>{
 return (
@@ -9,7 +9,9 @@ return (
     <ZakazTable />
 
     <button className="zakaz-button">
+        <span>
         Buyurtma berish
+        </span>
     </button>
 </div>
 )

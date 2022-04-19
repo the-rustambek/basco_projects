@@ -36,7 +36,7 @@ return (
         <form className="account-form">
             <input type="password" className="account-input" required placeholder="password" />
             <button className="account-btn">
-                Edit
+                <span>Edit</span>
             </button>
 
         </form>

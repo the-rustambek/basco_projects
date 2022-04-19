@@ -15,7 +15,9 @@ return(
             {/* <p className="akt-text">Date Before</p> */}
             <input className="akt-input" type="date" id="start" name="date-after" required placeholder="Date After" />
             <button className="akt-btn">
+                <span>
                 Submit
+                </span>
             </button>
         </form>
     </div>

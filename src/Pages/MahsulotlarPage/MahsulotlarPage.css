@@ -66,7 +66,7 @@
 }
 
 .mahsulotlar-btn {
-    border-radius: 6px;
+    border-radius: 4px;
     background-color: #D2BA6C;
     font-weight: 500;
     font-size: 14px;
@@ -82,13 +82,54 @@
     cursor: pointer;
 }
 
-
-.mahsulotlar-btn:hover{
-    transform: scale(0.92);
-    background-color: white;
-    color:#D2BA6C;
-    border: 2px solid #D2BA6C;
-}
+.mahsulotlar-btn {
+    width: 20%;
+      background-color: rgb(207, 160, 4);
+      color: #fff;
+      outline: none;
+      border: none;
+    border: none;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #222;
+    padding: 6px 00px;
+    background: linear-gradient(90deg,#e0b942 0,#000);
+    
+    /* margin: 0 auto; */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+  }
+  
+  .mahsulotlar-btn span {
+    position: relative; 
+    z-index: 1;
+    font-size: 16px;
+  }
+  
+  .mahsulotlar-btn:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 490%;
+    width: 197%;
+    background-color: black;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    transform: translateX(-80%) translateY(-25%) rotate(45deg);
+  }
+  
+  .mahsulotlar-btn:hover:after {
+    transform: translateX(0%) translateY(-25%) ;
+  }
+  
 @media(max-width:1160px) {
 
     .mahsulotlar-form input,

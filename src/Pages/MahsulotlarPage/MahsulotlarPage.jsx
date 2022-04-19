@@ -22,7 +22,9 @@ const MahsulotlarPage = () =>{
                     <p>Umumiy summasi: 6598018621</p>
                 </div>
                 <button className="mahsulotlar-btn">
+                    <span>
                     Buyurtma berish
+                    </span>
                 </button>
              </form>
          </div>

@@ -180,3 +180,9 @@ cursor: pointer;
         width: 100px;
     }
 }
+
+.account-btns{
+    font-size: 14px;
+    padding: 3px 0;
+    margin: 10px 0;
+}

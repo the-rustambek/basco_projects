@@ -32,15 +32,17 @@ return (
         </span>
     </div>
     <Modal className="modal account-modal"
-     show={accountModal} w={400} mh={240}>
+     show={accountModal} w={400} mh={185}>
     <button className="close-btn" onClick={()=>setAccountModal()}>
                     &times;
                 </button>
 
                 <form className="account-form">
                     <input type="password" className="account-input" required  placeholder="password" />
-                    <button className="account-btn">
+                    <button className="account-btn account-btns">
+                        <span>
                         Edit
+                        </span>
                     </button>
 
                 </form>

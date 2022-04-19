@@ -109,6 +109,8 @@
   background-color: #222;
   padding: 17px 60px;
   margin: 0 auto;
+  background: linear-gradient(90deg,#e0b942 0,#000);
+    
   box-shadow: 0 5px 15px rgba(0,0,0,0.20);
 }
 
