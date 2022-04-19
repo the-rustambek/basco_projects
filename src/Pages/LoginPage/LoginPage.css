@@ -63,7 +63,7 @@
     margin: 0 auto;
     margin-bottom: 2rem;
   }
-  .form button {
+  /* .form button {
     width: 90%;
     background-color: rgb(207, 160, 4);
     color: #fff;
@@ -80,10 +80,59 @@
     border-radius: 0.4rem;
     cursor: pointer;
     border: 3px solid rgb(207, 160, 4);
-  }
-  .form button:hover {
+  } */
+  /* .form button:hover {
     transform: scale(0.9);
     background-color: white;
     color: rgb(207, 160, 4);
     border: 3px solid rgb(207, 160, 4);
-  }
+  } */
+
+
+.loginContainer .form .form-button {
+  width: 90%;
+    background-color: rgb(207, 160, 4);
+    color: #fff;
+    outline: none;
+    border: none;
+  border: none;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: #222;
+  padding: 17px 60px;
+  margin: 0 auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+
+.loginContainer .form .form-button span {
+  position: relative; 
+  z-index: 1;
+}
+
+.loginContainer .form .form-button:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 490%;
+  width: 140%;
+  background-color: black;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  transform: translateX(-80%) translateY(-25%) rotate(45deg);
+}
+
+.loginContainer .form .form-button:hover:after {
+  transform: translateX(0%) translateY(-25%) ;
+}
+
+ 
+ 

@@ -406,6 +406,7 @@
     10px;
     
 }
+
 .akt-main table thead tr td{
   background-color: black;
   border: 2px solid black;
@@ -415,6 +416,25 @@ html body .container .akt-main table tbody #tr-table:nth-child(1){
   padding: 10px;
   top: 9%;
   height: 30px !important;
+  /* width: 100%;
+  left: 0; */
+  width: 100%;
+}
+html body .container .akt-main table tbody .tr-jami{
+  position: sticky;
+  padding: 10px;
+  top: 78%;
+  /* height: 30px !important; */
+  /* width: 100%;
+  left: 0; */
+  width: 100%;
+}
+  
+html body .container .akt-main table tbody .tr-jami1{
+  position: sticky;
+  padding: 10px;
+  top: 92%;
+  /* height: 30px !important; */
   /* width: 100%;
   left: 0; */
   width: 100%;

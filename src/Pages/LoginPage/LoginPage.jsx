@@ -24,13 +24,13 @@ function Login(props) {
         <form className="form" onSubmit={changeLogin}>
           <input id="login" type="text" placeholder="Login" />
           <input id="login" type="password" placeholder="Password" />
-          <button className="form-button form-button1">Log In</button>
+          <button className="form-button form-button1"><span> Log In</span></button>
         </form>
       ) : (
         <form className="form" onSubmit={changeLogin}>
           <input id="email" type="email" placeholder="E-mail" />
           <input id="number" type="number" placeholder="Phone Number" />
-          <button className="form-button form-button1">Sign Up</button>
+          <button className="form-button form-button1"><span> Sign U</span>p</button>
         </form>
       )}
     </div>

@@ -112,7 +112,7 @@ const AktTable = () => {
             <td data-title="Kirim">1 600 000 so’m</td>
             <td data-title="Chiqim">3 200 000 so’m</td>
           </tr>
-          <tr>
+          <tr className="tr-jami">
             <td data-title="izoh" colSpan="3">
               <b>ЖАМИ</b>
             </td>
@@ -123,7 +123,7 @@ const AktTable = () => {
               <b>72 000 000 so’m</b>
             </td>
           </tr>
-          <tr>
+          <tr className="tr-jami1">
             <td data-title="Sana"></td>
             <td data-title="izoh">
               <b>01.04.22</b>
