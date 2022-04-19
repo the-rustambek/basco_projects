@@ -42,6 +42,18 @@
     display: flex;
     justify-content: center;
     /* align-items: center; */
+    transition: 0.3s;
+}
+.header-account:hover{
+        transform: scale(1.15);
+        /* box-shadow:10px 10px 10px  #e0b942; */
+}
+.zakazHeader-account{
+    transition: 0.3s;
+}
+.zakazHeader-account:hover{
+    transform: scale(1.15);
+    /* box-shadow:10px 10px 10px  #e0b942; */
 }
 
 .header-span {

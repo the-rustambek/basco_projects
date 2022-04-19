@@ -1186,8 +1186,7 @@ cursor: pointer;
     }
 .minus-btn:hover{
     background-color: rgb(222, 26, 26);
-    transform: scale(0.8);
-    
+    transform: scale(1.2);
     
 }
     .plus-btn {
@@ -1203,7 +1202,7 @@ cursor: pointer;
 
     }
     .plus-btn:hover{
-        background-color:  rgba(133, 231, 13, 0.53);
+        background-color:  rgba(255, 200, 0, 0.53);
         transform: scale(1.2);
         
         

@@ -141,8 +141,19 @@ td {
     height: 32px;
     padding: 6px;
     border: none;
+    cursor: pointer;
+    transition: 1s;
+    border: 1px solid white;
+    transform: scale(1);
+    /* z-index: 111; */
 }
 
+.delete-btn:hover{
+    /* background-color: rgb(199, 185, 178); */
+    transform: scale(1.2) rotate(360deg);
+    padding: 5px;
+    border: 1px solid rgb(218, 47, 47);
+}
 
 .switch {
     position: relative;
@@ -1260,5 +1271,6 @@ input:checked+.slider:before {
     top: 0;
     /* width: 100%;
     left: 0; */
+    z-index: 111;
     width: 100%;
 }
