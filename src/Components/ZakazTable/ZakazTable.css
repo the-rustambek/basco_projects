@@ -1228,16 +1228,12 @@ cursor: pointer;
         position: relative;
     }
 
-   html body .zakaz-page .zakaz-button {
-        cursor: pointer;
-        margin-top: 30px;
-
-        cursor: pointer;
+   .zakaz-page .zakaz-button {
+        
+        margin-top: 30px; cursor: pointer;
         position: absolute;
         top: 100%;
-        left: 77%;
-        /* transform: translate(-50%,-50%); */
-        
+        left: 77%; 
         border: none;
         border-radius: 5px;
         padding: 10px 25px;
@@ -1272,8 +1268,9 @@ cursor: pointer;
         background-color: #222;
         padding: 6px 00px;
         background: linear-gradient(90deg,#e0b942 0,#000);
-        
+        cursor: pointer;
         /* margin: 0 auto; */
+        z-index: 15;
         box-shadow: 0 5px 15px rgba(0,0,0,0.20);
       }
       
@@ -1281,23 +1278,29 @@ cursor: pointer;
         position: relative; 
         z-index: 1;
         font-size: 15px;
+        cursor: pointer;
+        letter-spacing: 1.5px;
+        /* color: red */
       }
       
-      .zakaz-page .zakaz-button:after {
+      .container .zakaz-page .zakaz-button:after {
         content: "";
         position: absolute;
         left: 0;
+        cursor: pointer;
         top: 0;
         height: 490%;
         width: 197%;
+        ;
         background-color: black;
         -webkit-transition: all .5s ease-in-out;
         transition: all .5s ease-in-out;
         transform: translateX(-80%) translateY(-25%) rotate(45deg);
       }
       
-      body .app .container .zakaz-page .zakaz-button:hover:after {
+       .zakaz-page .zakaz-button:hover::after {
         transform: translateX(0%) translateY(-25%) ;
+        cursor: pointer;
       }
       
 
