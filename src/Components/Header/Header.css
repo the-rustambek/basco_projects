@@ -94,12 +94,12 @@
     
     position: absolute;
     transform: translate(-50%,-50%);
-    top: 3.5%;
+    top: 0.5%;
     border: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    left: 97.5%;
+    left: 100%;
     cursor: pointer;
     border-radius: 50%;
 }

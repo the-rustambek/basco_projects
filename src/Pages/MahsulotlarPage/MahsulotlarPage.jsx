@@ -9,7 +9,7 @@ const MahsulotlarPage = () =>{
          <MahsulotlarTable />
          <div className="mahsulotlar-bottom">
              <h3 className="mahsulotlar-title">
-             Umumiy tovarlar haqida :
+             Умумий товарлар ҳақида :
              </h3>
              <form className="mahsulotlar-form">
                  <label >
@@ -18,12 +18,12 @@ const MahsulotlarPage = () =>{
                 <textarea required placeholder="Izoh..." className="mahsulotlar-textarea"></textarea>
                 </label>
                 <div className="mahsulotlar-box">
-                    <p>Soni:   25 </p>
-                    <p>Umumiy summasi: 6598018621</p>
+                    <p>Сони:   25 </p>
+                    <p>Умумий суммаси: 5200000</p>
                 </div>
                 <button className="mahsulotlar-btn">
                     <span>
-                    Buyurtma berish
+                    Буюртма бериш
                     </span>
                 </button>
              </form>

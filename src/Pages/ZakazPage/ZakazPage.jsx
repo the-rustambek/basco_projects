@@ -10,7 +10,7 @@ return (
 
     <button className="zakaz-button">
         <span>
-        Buyurtma berish
+        Буюртма бериш
         </span>
     </button>
 </div>

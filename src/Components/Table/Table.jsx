@@ -33,16 +33,16 @@ return(
     <thead>
       <tr>
         <th>
-          ID
+        ИД
         </th>
         <th>
-          Sana
+        Сана
         </th>
         <th>
-          Tovarlar soni
+        Товарлар сони
         </th>
         <th>
-          Jami summa
+        Жами сумма
         </th>
         <th></th>
         <th>
@@ -64,12 +64,12 @@ return(
           10
         </td>
         <td data-title='Jami Summa'>
-          1 600 000 so’m
+          1 600 000 сўм
         </td>
         <td className='select'>
           <button className='button button1'>
             <span>
-            Buyurtma berish
+            Буюртма бериш
           </span></button>
         </td>
         <td>
@@ -92,12 +92,12 @@ return(
           10
         </td>
         <td data-title='Jami Summa'>
-          1 600 000 so’m
+          1 600 000 сўм
         </td>
         <td className='select'>
           <button className='button button1'>
             <span>
-            Buyurtma berish
+            Буюртма бериш
           </span></button>
         </td>
         <td>
@@ -119,12 +119,12 @@ return(
           10
         </td>
         <td data-title='Jami Summa'>
-          1 600 000 so’m
+          1 600 000 сўм
         </td>
         <td className='select'>
           <button className='button button1'>
             <span>
-            Buyurtma berish
+            Буюртма бериш
           </span></button>
         </td>
         <td>
@@ -147,12 +147,12 @@ return(
           10
         </td>
         <td data-title='Jami Summa'>
-          1 600 000 so’m
+          1 600 000 сўм
         </td>
         <td className='select'>
           <button className='button button1'>
             <span>
-            Buyurtma berish
+            Буюртма бериш
           </span></button>
         </td>
         <td>
@@ -174,12 +174,12 @@ return(
           10
         </td>
         <td data-title='Jami Summa'>
-          1 600 000 so’m
+          1 600 000 сўм
         </td>
         <td className='select'>
           <button className='button button1'>
             <span>
-            Buyurtma berish
+            Буюртма бериш
           </span></button>
         </td>
         <td>
@@ -202,66 +202,12 @@ return(
           10
         </td>
         <td data-title='Jami Summa'>
-          1 600 000 so’m
+          1 600 000 сўм
         </td>
         <td className='select'>
           <button className='button button1'>
             <span>
-            Buyurtma berish
-          </span></button>
-        </td>
-        <td>
-        <button className="table-uncompleted--btn">
-          <span onClick={()=> openTableModal()} className="buyurtma-uncompleted">
-            UnCompleted
-          </span>
-          </button>
-        </td>
-      </tr><tr className="tr" id="tr1">
-        <td data-title='ID'>
-          6
-        </td>
-        <td data-title='Sana'>
-          12:13-12.05.2021
-        </td>
-        <td data-title='Tovarlar Soni'>
-          10
-        </td>
-        <td data-title='Jami Summa'>
-          1 600 000 so’m
-        </td>
-        <td className='select'>
-          <button className='button button1'>
-            <span>
-            Buyurtma berish
-          </span></button>
-        </td>
-        <td>
-          <button className="table-completed--btn">
-          <span onClick={()=> openTableModal()} className="buyurtma-completed">
-            Completed
-          </span>
-          </button>
-          
-        </td>
-      </tr>
-      <tr className="tr" id="tr1">
-        <td data-title='ID'>
-          6
-        </td>
-        <td data-title='Sana'>
-          12:13-12.05.2021
-        </td>
-        <td data-title='Tovarlar Soni'>
-          10
-        </td>
-        <td data-title='Jami Summa'>
-          1 600 000 so’m
-        </td>
-        <td className='select'>
-          <button className='button button1'>
-            <span>
-            Buyurtma berish
+            Буюртма бериш
           </span></button>
         </td>
         <td>
@@ -282,12 +228,12 @@ return(
           10
         </td>
         <td data-title='Jami Summa'>
-          1 600 000 so’m
+          1 600 000 сўм
         </td>
         <td className='select'>
           <button className='button button1'>
             <span>
-            Buyurtma berish
+            Буюртма бериш
           </span></button>
         </td>
         <td>
@@ -310,12 +256,12 @@ return(
           10
         </td>
         <td data-title='Jami Summa'>
-          1 600 000 so’m
+          1 600 000 сўм
         </td>
         <td className='select'>
           <button className='button button1'>
             <span>
-            Buyurtma berish
+            Буюртма бериш
           </span></button>
         </td>
         <td>
@@ -336,12 +282,12 @@ return(
           10
         </td>
         <td data-title='Jami Summa'>
-          1 600 000 so’m
+          1 600 000 сўм
         </td>
         <td className='select'>
           <button className='button button1'>
             <span>
-            Buyurtma berish
+            Буюртма бериш
           </span></button>
         </td>
         <td>
@@ -364,12 +310,12 @@ return(
           10
         </td>
         <td data-title='Jami Summa'>
-          1 600 000 so’m
+          1 600 000 сўм
         </td>
         <td className='select'>
           <button className='button button1'>
             <span>
-            Buyurtma berish
+            Буюртма бериш
           </span></button>
         </td>
         <td>
@@ -390,12 +336,12 @@ return(
           10
         </td>
         <td data-title='Jami Summa'>
-          1 600 000 so’m
+          1 600 000 сўм
         </td>
         <td className='select'>
           <button className='button button1'>
             <span>
-            Buyurtma berish
+            Буюртма бериш
           </span></button>
         </td>
         <td>
@@ -418,12 +364,12 @@ return(
           10
         </td>
         <td data-title='Jami Summa'>
-          1 600 000 so’m
+          1 600 000 сўм
         </td>
         <td className='select'>
           <button className='button button1'>
             <span>
-            Buyurtma berish
+            Буюртма бериш
           </span></button>
         </td>
         <td>
@@ -444,12 +390,12 @@ return(
           10
         </td>
         <td data-title='Jami Summa'>
-          1 600 000 so’m
+          1 600 000 сўм
         </td>
         <td className='select'>
           <button className='button button1'>
             <span>
-            Buyurtma berish
+            Буюртма бериш
           </span></button>
         </td>
         <td>
@@ -472,12 +418,66 @@ return(
           10
         </td>
         <td data-title='Jami Summa'>
-          1 600 000 so’m
+          1 600 000 сўм
         </td>
         <td className='select'>
           <button className='button button1'>
             <span>
-            Buyurtma berish
+            Буюртма бериш
+          </span></button>
+        </td>
+        <td>
+        <button className="table-uncompleted--btn">
+          <span onClick={()=> openTableModal()} className="buyurtma-uncompleted">
+            UnCompleted
+          </span>
+          </button>
+        </td>
+      </tr><tr className="tr" id="tr1">
+        <td data-title='ID'>
+          6
+        </td>
+        <td data-title='Sana'>
+          12:13-12.05.2021
+        </td>
+        <td data-title='Tovarlar Soni'>
+          10
+        </td>
+        <td data-title='Jami Summa'>
+          1 600 000 сўм
+        </td>
+        <td className='select'>
+          <button className='button button1'>
+            <span>
+            Буюртма бериш
+          </span></button>
+        </td>
+        <td>
+          <button className="table-completed--btn">
+          <span onClick={()=> openTableModal()} className="buyurtma-completed">
+            Completed
+          </span>
+          </button>
+          
+        </td>
+      </tr>
+      <tr className="tr" id="tr1">
+        <td data-title='ID'>
+          6
+        </td>
+        <td data-title='Sana'>
+          12:13-12.05.2021
+        </td>
+        <td data-title='Tovarlar Soni'>
+          10
+        </td>
+        <td data-title='Jami Summa'>
+          1 600 000 сўм
+        </td>
+        <td className='select'>
+          <button className='button button1'>
+            <span>
+            Буюртма бериш
           </span></button>
         </td>
         <td>
@@ -521,7 +521,7 @@ return(
         </p>
         <p className="modalTable-olchov">105 Kg</p>
         <p className="modalTable-cost">
-          1 600 000 so’m
+          1 600 000 сўм
         </p>
         <p className="modalTable-count">
           3
@@ -536,7 +536,7 @@ return(
         </p>
         <p className="modalTable-olchov">105 Kg</p>
         <p className="modalTable-cost">
-          1 600 000 so’m
+          1 600 000 сўм
         </p>
         <p className="modalTable-count">
           3
@@ -551,7 +551,7 @@ return(
         </p>
         <p className="modalTable-olchov">105 Kg</p>
         <p className="modalTable-cost">
-          1 600 000 so’m
+          1 600 000 сўм
         </p>
         <p className="modalTable-count">
           3
@@ -566,7 +566,7 @@ return(
         </p>
         <p className="modalTable-olchov">105 Kg</p>
         <p className="modalTable-cost">
-          1 600 000 so’m
+          1 600 000 сўм
         </p>
         <p className="modalTable-count">
           3
@@ -581,7 +581,7 @@ return(
         </p>
         <p className="modalTable-olchov">105 Kg</p>
         <p className="modalTable-cost">
-          1 600 000 so’m
+          1 600 000 сўм
         </p>
         <p className="modalTable-count">
           3
@@ -596,7 +596,7 @@ return(
         </p>
         <p className="modalTable-olchov">105 Kg</p>
         <p className="modalTable-cost">
-          1 600 000 so’m
+          1 600 000 сўм
         </p>
         <p className="modalTable-count">
           3
@@ -611,7 +611,7 @@ return(
         </p>
         <p className="modalTable-olchov">105 Kg</p>
         <p className="modalTable-cost">
-          1 600 000 so’m
+          1 600 000 сўм
         </p>
         <p className="modalTable-count">
           3
@@ -626,7 +626,7 @@ return(
         </p>
         <p className="modalTable-olchov">105 Kg</p>
         <p className="modalTable-cost">
-          1 600 000 so’m
+          1 600 000 сўм
         </p>
         <p className="modalTable-count">
           3
@@ -641,7 +641,7 @@ return(
         </p>
         <p className="modalTable-olchov">105 Kg</p>
         <p className="modalTable-cost">
-          1 600 000 so’m
+          1 600 000 сўм
         </p>
         <p className="modalTable-count">
           3
@@ -656,7 +656,7 @@ return(
         </p>
         <p className="modalTable-olchov">105 Kg</p>
         <p className="modalTable-cost">
-          1 600 000 so’m
+          1 600 000 сўм
         </p>
         <p className="modalTable-count">
           3
@@ -671,7 +671,7 @@ return(
         </p>
         <p className="modalTable-olchov">105 Kg</p>
         <p className="modalTable-cost">
-          1 600 000 so’m
+          1 600 000 сўм
         </p>
         <p className="modalTable-count">
           3
@@ -686,7 +686,7 @@ return(
         </p>
         <p className="modalTable-olchov">105 Kg</p>
         <p className="modalTable-cost">
-          1 600 000 so’m
+          1 600 000 сўм
         </p>
         <p className="modalTable-count">
           3

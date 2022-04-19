@@ -15,7 +15,7 @@ const AktTable = () => {
         </thead>
 
         <tbody className="tbody">
-          <tr id="tr-table">
+          <tr id="tr-table" style={{backgroundColor:"red"}}>
             <td data-title="ID"></td>
             <td data-title="Sana">
               <b>01.01.22</b>
@@ -31,96 +31,96 @@ const AktTable = () => {
             <td data-title="ID">6</td>
             <td data-title="Sana">12:13-12.05.2021</td>
             <td data-title="izoh">Lux soft memory</td>
-            <td data-title="Kirim">1 600 000 so’m</td>
-            <td data-title="Chiqim">3 200 000 so’m</td>
+            <td data-title="Kirim">1 600 000 сўм</td>
+            <td data-title="Chiqim">3 200 000 сўм</td>
           </tr>
           <tr>
             <td data-title="ID">6</td>
             <td data-title="Sana">12:13-12.05.2021</td>
             <td data-title="izoh">Lux soft memory</td>
-            <td data-title="Kirim">1 600 000 so’m</td>
-            <td data-title="Chiqim">3 200 000 so’m</td>
+            <td data-title="Kirim">1 600 000 сўм</td>
+            <td data-title="Chiqim">3 200 000 сўм</td>
           </tr> <tr>
             <td data-title="ID">6</td>
             <td data-title="Sana">12:13-12.05.2021</td>
             <td data-title="izoh">Lux soft memory</td>
-            <td data-title="Kirim">1 600 000 so’m</td>
-            <td data-title="Chiqim">3 200 000 so’m</td>
+            <td data-title="Kirim">1 600 000 сўм</td>
+            <td data-title="Chiqim">3 200 000 сўм</td>
           </tr> <tr>
             <td data-title="ID">6</td>
             <td data-title="Sana">12:13-12.05.2021</td>
             <td data-title="izoh">Lux soft memory</td>
-            <td data-title="Kirim">1 600 000 so’m</td>
-            <td data-title="Chiqim">3 200 000 so’m</td>
+            <td data-title="Kirim">1 600 000 сўм</td>
+            <td data-title="Chiqim">3 200 000 сўм</td>
           </tr> <tr>
             <td data-title="ID">6</td>
             <td data-title="Sana">12:13-12.05.2021</td>
             <td data-title="izoh">Lux soft memory</td>
-            <td data-title="Kirim">1 600 000 so’m</td>
-            <td data-title="Chiqim">3 200 000 so’m</td>
+            <td data-title="Kirim">1 600 000 сўм</td>
+            <td data-title="Chiqim">3 200 000 сўм</td>
           </tr> <tr>
             <td data-title="ID">6</td>
             <td data-title="Sana">12:13-12.05.2021</td>
             <td data-title="izoh">Lux soft memory</td>
-            <td data-title="Kirim">1 600 000 so’m</td>
-            <td data-title="Chiqim">3 200 000 so’m</td>
+            <td data-title="Kirim">1 600 000 сўм</td>
+            <td data-title="Chiqim">3 200 000 сўм</td>
           </tr> <tr>
             <td data-title="ID">6</td>
             <td data-title="Sana">12:13-12.05.2021</td>
             <td data-title="izoh">Lux soft memory</td>
-            <td data-title="Kirim">1 600 000 so’m</td>
-            <td data-title="Chiqim">3 200 000 so’m</td>
+            <td data-title="Kirim">1 600 000 сўм</td>
+            <td data-title="Chiqim">3 200 000 сўм</td>
           </tr> <tr>
             <td data-title="ID">6</td>
             <td data-title="Sana">12:13-12.05.2021</td>
             <td data-title="izoh">Lux soft memory</td>
-            <td data-title="Kirim">1 600 000 so’m</td>
-            <td data-title="Chiqim">3 200 000 so’m</td>
+            <td data-title="Kirim">1 600 000 сўм</td>
+            <td data-title="Chiqim">3 200 000 сўм</td>
           </tr>
           <tr>
             <td data-title="ID">6</td>
             <td data-title="Sana">12:13-12.05.2021</td>
             <td data-title="izoh">Lux soft memory</td>
-            <td data-title="Kirim">1 600 000 so’m</td>
-            <td data-title="Chiqim">3 200 000 so’m</td>
+            <td data-title="Kirim">1 600 000 сўм</td>
+            <td data-title="Chiqim">3 200 000 сўм</td>
           </tr>
           <tr>
             <td data-title="ID">6</td>
             <td data-title="Sana">12:13-12.05.2021</td>
             <td data-title="izoh">Lux soft memory</td>
-            <td data-title="Kirim">1 600 000 so’m</td>
-            <td data-title="Chiqim">3 200 000 so’m</td>
+            <td data-title="Kirim">1 600 000 сўм</td>
+            <td data-title="Chiqim">3 200 000 сўм</td>
           </tr>
           <tr>
             <td data-title="ID">6</td>
             <td data-title="Sana">12:13-12.05.2021</td>
             <td data-title="izoh">Lux soft memory</td>
-            <td data-title="Kirim">1 600 000 so’m</td>
-            <td data-title="Chiqim">3 200 000 so’m</td>
+            <td data-title="Kirim">1 600 000 сўм</td>
+            <td data-title="Chiqim">3 200 000 сўм</td>
           </tr>
           <tr>
             <td data-title="ID">6</td>
             <td data-title="Sana">12:13-12.05.2021</td>
             <td data-title="izoh">Lux soft memory</td>
-            <td data-title="Kirim">1 600 000 so’m</td>
-            <td data-title="Chiqim">3 200 000 so’m</td>
+            <td data-title="Kirim">1 600 000 сўм</td>
+            <td data-title="Chiqim">3 200 000 сўм</td>
           </tr>
           <tr>
             <td data-title="ID">6</td>
             <td data-title="Sana">12:13-12.05.2021</td>
             <td data-title="izoh">Lux soft memory</td>
-            <td data-title="Kirim">1 600 000 so’m</td>
-            <td data-title="Chiqim">3 200 000 so’m</td>
+            <td data-title="Kirim">1 600 000 сўм</td>
+            <td data-title="Chiqim">3 200 000 сўм</td>
           </tr>
           <tr className="tr-jami">
             <td data-title="izoh" colSpan="3">
               <b>ЖАМИ</b>
             </td>
             <td data-title="Kirim">
-              <b>16 000 000 so’m</b>
+              <b>16 000 000 сўм</b>
             </td>
             <td data-title="Chiqim">
-              <b>72 000 000 so’m</b>
+              <b>72 000 000 сўм</b>
             </td>
           </tr>
           <tr className="tr-jami1">

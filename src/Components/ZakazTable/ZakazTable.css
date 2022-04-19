@@ -1181,18 +1181,32 @@ input:checked+.slider:before {
         height: 34px;
         font-size: 16px;
         border: none;
-
+transition: 0.3s;
+cursor: pointer;
     }
-
+.minus-btn:hover{
+    background-color: rgb(222, 26, 26);
+    transform: scale(0.8);
+    
+    
+}
     .plus-btn {
-        background: rgba(22, 208, 18, 0.53);
+        background: rgba(44, 201, 41, 0.53);
         border-radius: 5px;
         padding: 5px 8px;
         width: 34px;
         height: 34px;
         font-size: 16px;
         border: none;
+        transition: 0.3s;
+cursor: pointer;
 
+    }
+    .plus-btn:hover{
+        background-color:  rgba(133, 231, 13, 0.53);
+        transform: scale(1.2);
+        
+        
     }
 
     .refresh-icon {

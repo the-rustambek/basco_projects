@@ -10,22 +10,22 @@ return (
     <thead>
       <tr>
         <th>
-          Mahsulot turi
+        Маҳсулот тури
         </th>
         <th>
-          Tovar nomi
+        Товар номи
         </th>
         <th>
-          O'lchov birligi
+        Ўлчов бирлиги
         </th>
         <th>
-          Ostatka
+        Остатка
         </th>
         <th>
-          Narxi
+        Нархи
         </th>
         <th>
-          Soni
+        Сони
         </th>
         <th></th>
       </tr>

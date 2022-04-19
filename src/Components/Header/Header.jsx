@@ -26,7 +26,7 @@ return (
         </span>
     </div>
 
-    <Modal className="modal account-modal" show={accountModal} w={350} mh={208}>
+    <Modal className="modal account-modal" show={accountModal} w={450} mh={208}>
         <button className="close-btn" onClick={()=>setAccountModal()}>
             &times;
         </button>
