@@ -1037,7 +1037,7 @@ body .indicator {
     width: 40px;
     height: 40px;
     top: 20%;
-    left: 95%;
+    left: 96.5%;
     z-index: 11;
     transform: rotate(360deg);
     cursor: pointer;

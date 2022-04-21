@@ -1,8 +1,28 @@
 import "./AktTable.css";
+import Arrow from "../../Assets/Img/Arrow.png";
+import { createRef, useCallback, useState } from "react";
 
 const AktTable = () => {
+  const ref = createRef();
+const scrollToBottomOfList =
+ useCallback(() => {
+ref.current.scrollIntoView({
+behavior: "smooth",
+block: "end",
+});
+}, [ref]);
+
+const handleButtonClick = useCallback(() => {
+scrollToBottomOfList();
+// eslint-disable-next-line react-hooks/exhaustive-deps
+}, []);
   return (
     <main className="akt-main">
+      <div className='indicator 
+zakaz-indicator' 
+onClick={handleButtonClick}>
+  <img src={Arrow} alt="" />
+  </div>
       <table>
         <thead>
           <tr>
@@ -14,7 +34,7 @@ const AktTable = () => {
           </tr>
         </thead>
 
-        <tbody className="tbody">
+        <tbody className="tbody" ref={ref}>
           <tr id="tr-table" style={{backgroundColor:"red"}}>
             <td data-title="ID"></td>
             <td data-title="Sana">

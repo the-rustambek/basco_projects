@@ -1322,3 +1322,50 @@ cursor: pointer;
 }
 
 
+
+
+
+
+
+body .zakaz-indicator {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    top: 20%;
+    left: 96.5%;
+    z-index: 11;
+    transform: rotate(360deg);
+    cursor: pointer;
+    font-size: 50px;
+    font-weight: bolder;
+    background-color: #ffd64a;
+    padding: 5px;
+    display: flex;justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgb(255 238 6 / 35%);
+/* transition: 5s; */
+animation-name: animation;
+animation-duration: 2s;
+    animation: animate 1s linear infinite;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    /* animation-timing-function: ease;  */
+}
+body .zakaz-indicator img{
+    width: 30px;
+    height: 30px;
+}
+
+@keyframes animate {
+    0% {
+        border-color: #fff;
+        transform: translateY(0px);
+        animation-duration: 3;
+    }
+    
+    100% {
+        transform: translateY(60px);
+        border-color: #ffd64a;
+    }
+}
