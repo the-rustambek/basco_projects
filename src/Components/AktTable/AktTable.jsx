@@ -19,7 +19,7 @@ scrollToBottomOfList();
   return (
     <main className="akt-main">
       <div className='indicator 
-zakaz-indicator' 
+zakaz-indicator1' 
 onClick={handleButtonClick}>
   <img src={Arrow} alt="" />
   </div>
