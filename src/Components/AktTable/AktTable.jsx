@@ -23,9 +23,14 @@ zakaz-indicator1'
 onClick={handleButtonClick}>
   <img src={Arrow} alt="" />
   </div>
+  <div className="valuta">
+  сўм
+  </div>
       <table>
+       
         <thead>
-          <tr>
+          
+          <tr> 
             <th>ИД</th>
             <th>Сана</th>
             <th>Изоҳ</th>
