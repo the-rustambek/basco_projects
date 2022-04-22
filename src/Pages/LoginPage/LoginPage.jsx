@@ -24,7 +24,7 @@ function Login(props) {
       {sign ? (
         <form className="form" onSubmit={changeLogin}>
           <input id="login" type="text" placeholder="Login" />
-          <input id="login" type="password" placeholder="Password" />
+          <input id="password" type="password" placeholder="Password" />
           <button className="form-button form-button1"><span> Log In</span></button>
         </form>
       ) : (
