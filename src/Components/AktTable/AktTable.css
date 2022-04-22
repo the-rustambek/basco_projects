@@ -393,15 +393,12 @@
   body .akt-main table th {
     padding: 6px;
     text-align: center;
-    /* background-color: red; */
     height: 45px;
   }
 
   .akt-main table thead tr{
     position: sticky;
     top: 0;
-    /* width: 100%;
-    left: 0; */
     height: 35px !important;
     width: 100%;
     background-color: 
@@ -440,9 +437,6 @@ html body .container .akt-main table tbody .tr-jami1{
   position: sticky;
   padding: 10px;
   top: 92%;
-  /* height: 30px !important; */
-  /* width: 100%;
-  left: 0; */
   width: 100%;
 }
   
@@ -473,7 +467,7 @@ animation-duration: 2s;
   animation-direction:alternate;
   /* animation-timing-function: ease;  */
 }
-body .zakaz-indicator1img{
+body .zakaz-indicator1 img{
   width: 30px;
   height: 30px;
 }
