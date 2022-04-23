@@ -1,7 +1,7 @@
 import "./MahsulotlarTable.css"
 import deleteIcon from "../../Assets/Img/Delete.svg";
 import Arrow from "../../Assets/Img/Arrow.png";
-import { createRef, useCallback, useState } from "react";
+import { createRef, useCallback } from "react";
 
 const MahsulotlarTable = () =>{
 

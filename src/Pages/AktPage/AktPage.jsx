@@ -6,19 +6,7 @@ const AktPage = () =>{
 return(
 <section className="akt">
 <Header />
-    <div className="akt-top">
-        <form className="akt-form">
-    <input className="akt-input" type="date" id="start" name="date-after" required placeholder="Date After" />
-     
-            {/* <p className="akt-text">Date Before</p> */}
-            <input className="akt-input" type="date" id="start" name="date-after" required placeholder="Date After" />
-            <button className="akt-btn">
-                <span>
-                Submit
-                </span>
-            </button>
-        </form>
-    </div>
+  
     <AktTable />
 </section>
 )

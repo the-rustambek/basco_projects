@@ -2,7 +2,7 @@ import "./ZakazTable.css";
 import refresh from "../../Assets/Img/refresh.png";
 // import { useState } from "react";
 import Arrow from "../../Assets/Img/Arrow.png";
-import { createRef, useCallback, useState } from "react";
+import { createRef, useCallback  } from "react";
 
 
 const ZakazTable = () =>{
